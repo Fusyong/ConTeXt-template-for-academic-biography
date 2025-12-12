@@ -63,20 +63,20 @@ structures      > end of sectionblock 'frontpart'
 pages           > flushing realpage 10, userpage 8, subpage 10
 structures      > begin of sectionblock 'bodypart'
 open source     > level 2, order 8, name 'chapter1.tex'
-structures      > bookmark: 第一章 敬躜鲢言啁鹃楂
-structure       > sectioning > zhang @ level 2 : 0.1 -> 第一章 \q 敬躜鲢言啁鹃楂
-structures      > bookmark: 一、 事噩踱铑噍桃隳苎
-structure       > sectioning > jie @ level 3 : 0.1.1 -> 一、事噩踱铑噍桃隳苎
+structures      > bookmark: 第一章 析嗖台盥宋辑旬
+structure       > sectioning > zhang @ level 2 : 0.1 -> 第一章 \q 析嗖台盥宋辑旬
+structures      > bookmark: 一、 纭仙楚瑚噘泓井猎
+structure       > sectioning > jie @ level 3 : 0.1.1 -> 一、纭仙楚瑚噘泓井猎
 pages           > flushing realpage 11, userpage 1, subpage 11
 fonts           > bodyfont '8.4pt' is defined (can better be done global (maybe use \usebodyfont)
 pages           > flushing realpage 12, userpage 2, subpage 12
-structures      > bookmark: 二、 蛰骏佯痍缺燕种
-structure       > sectioning > jie @ level 3 : 0.1.2 -> 二、蛰骏佯痍缺燕种
+structures      > bookmark: 二、 椁晏叩裰豫貌鼙
+structure       > sectioning > jie @ level 3 : 0.1.2 -> 二、椁晏叩裰豫貌鼙
 pages           > flushing realpage 13, userpage 3, subpage 13
 pages           > flushing realpage 14, userpage 4, subpage 14
 pages           > flushing realpage 15, userpage 5, subpage 15
-structures      > bookmark: 三、 砀他爱喷埂王腭
-structure       > sectioning > jie @ level 3 : 0.1.3 -> 三、砀他爱喷埂王腭
+structures      > bookmark: 三、 跺堑粗主砻醋俭
+structure       > sectioning > jie @ level 3 : 0.1.3 -> 三、跺堑粗主砻醋俭
 pages           > flushing realpage 16, userpage 6, subpage 16
 pages           > flushing realpage 17, userpage 7, subpage 17
 pages           > flushing realpage 18, userpage 8, subpage 18
@@ -86,30 +86,29 @@ close source    > level 2, order 8, name 'chapter1.tex'
 open source     > level 2, order 9, name 'chapter2.tex'
 pages           > flushing realpage 21, userpage 11, subpage 21
 pages           > flushing realpage 22, userpage 12, subpage 22
-structures      > bookmark: 第二章 条秩等厩峪珧檩
-structure       > sectioning > zhang @ level 2 : 0.2 -> 第二章 \q 条秩等厩峪珧檩
-structures      > bookmark: 四、 戽蔻陂荭第一萱
-structure       > sectioning > jie @ level 3 : 0.2.1 -> 四、戽蔻陂荭第一萱
+structures      > bookmark: 第二章 夯血虽马蜿广蠃
+structure       > sectioning > zhang @ level 2 : 0.2 -> 第二章 \q 夯血虽马蜿广蠃
+structures      > bookmark: 四、 瘥礞哎翕第一钽
+structure       > sectioning > jie @ level 3 : 0.2.1 -> 四、瘥礞哎翕第一钽
 pages           > flushing realpage 23, userpage 13, subpage 23
-tex memory      > bumping category 'node' succeeded, details: all=22500000 | ini=0 | max=100000000 | mem=2500000 | min=2000000 | ptr=-10378 | set=50000000 | stp=500000 | top=1999999
+tex memory      > bumping category 'node' succeeded, details: all=22500000 | ini=0 | max=100000000 | mem=2500000 | min=2000000 | ptr=-10378 | set=50000000 | stp=500000 | top=1999989
 pages           > flushing realpage 24, userpage 14, subpage 24
 pages           > flushing realpage 25, userpage 15, subpage 25
 pages           > flushing realpage 26, userpage 16, subpage 26
 pages           > flushing realpage 27, userpage 17, subpage 27
 pages           > flushing realpage 28, userpage 18, subpage 28
-structures      > bookmark: 五、 镔则莲哑柱破昴
-structure       > sectioning > jie @ level 3 : 0.2.2 -> 五、镔则莲哑柱破昴
+structures      > bookmark: 五、 幅嘎廑称扇幢精
+structure       > sectioning > jie @ level 3 : 0.2.2 -> 五、幅嘎廑称扇幢精
+tex memory      > bumping category 'node' succeeded, details: all=27000000 | ini=0 | max=100000000 | mem=3000000 | min=2000000 | ptr=-10360 | set=50000000 | stp=500000 | top=2499993
 pages           > flushing realpage 29, userpage 19, subpage 29
-tex memory      > bumping category 'node' succeeded, details: all=27000000 | ini=0 | max=100000000 | mem=3000000 | min=2000000 | ptr=-13071 | set=50000000 | stp=500000 | top=2499998
 pages           > flushing realpage 30, userpage 20, subpage 30
 pages           > flushing realpage 31, userpage 21, subpage 31
 pages           > flushing realpage 32, userpage 22, subpage 32
 pages           > flushing realpage 33, userpage 23, subpage 33
-structures      > bookmark: 六、 晖夭蝴掴瘃沭劾苑
-structure       > sectioning > jie @ level 3 : 0.2.3 -> 六、晖夭蝴掴瘃沭劾苑
+structures      > bookmark: 六、 煅鲇傺觞皿蛸廖玑
+structure       > sectioning > jie @ level 3 : 0.2.3 -> 六、煅鲇傺觞皿蛸廖玑
 pages           > flushing realpage 34, userpage 24, subpage 34
-references      > unknown reference '[][饽涟弯乙墟箕换本滂25]'
-tex memory      > bumping category 'node' succeeded, details: all=31500000 | ini=0 | max=100000000 | mem=3500000 | min=2000000 | ptr=-11105 | set=50000000 | stp=500000 | top=2999998
+tex memory      > bumping category 'node' succeeded, details: all=31500000 | ini=0 | max=100000000 | mem=3500000 | min=2000000 | ptr=-11131 | set=50000000 | stp=500000 | top=2999998
 pages           > flushing realpage 35, userpage 25, subpage 35
 pages           > flushing realpage 36, userpage 26, subpage 36
 pages           > flushing realpage 37, userpage 27, subpage 37
@@ -118,47 +117,45 @@ close source    > level 2, order 9, name 'chapter2.tex'
 open source     > level 2, order 10, name 'chapter3.tex'
 pages           > flushing realpage 39, userpage 29, subpage 39
 pages           > flushing realpage 40, userpage 30, subpage 40
-structures      > bookmark: 第三章 榫槠嶝害渊鳅勉
-structure       > sectioning > zhang @ level 2 : 0.3 -> 第三章 \q 榫槠嶝害渊鳅勉
-structures      > bookmark: 七、 绍鼯殆瘅酡哓谶
-structure       > sectioning > jie @ level 3 : 0.3.1 -> 七、绍鼯殆瘅酡哓谶
-tex memory      > bumping category 'node' succeeded, details: all=36000000 | ini=0 | max=100000000 | mem=4000000 | min=2000000 | ptr=-11249 | set=50000000 | stp=500000 | top=3499985
+structures      > bookmark: 第三章 夥逊蜻身遄孽穆
+structure       > sectioning > zhang @ level 2 : 0.3 -> 第三章 \q 夥逊蜻身遄孽穆
+structures      > bookmark: 七、 惭栩龆囗崛洱村
+structure       > sectioning > jie @ level 3 : 0.3.1 -> 七、惭栩龆囗崛洱村
+tex memory      > bumping category 'node' succeeded, details: all=36000000 | ini=0 | max=100000000 | mem=4000000 | min=2000000 | ptr=-10542 | set=50000000 | stp=500000 | top=3500000
 pages           > flushing realpage 41, userpage 31, subpage 41
 pages           > flushing realpage 42, userpage 32, subpage 42
-references      > unknown reference '[][甄鹅眍丘鸠酷聱宁泱怄33]'
 pages           > flushing realpage 43, userpage 33, subpage 43
 pages           > flushing realpage 44, userpage 34, subpage 44
 pages           > flushing realpage 45, userpage 35, subpage 45
-tex memory      > bumping category 'node' succeeded, details: all=40500000 | ini=0 | max=100000000 | mem=4500000 | min=2000000 | ptr=-10548 | set=50000000 | stp=500000 | top=3999998
+tex memory      > bumping category 'node' succeeded, details: all=40500000 | ini=0 | max=100000000 | mem=4500000 | min=2000000 | ptr=-11208 | set=50000000 | stp=500000 | top=3999996
 pages           > flushing realpage 46, userpage 36, subpage 46
 pages           > flushing realpage 47, userpage 37, subpage 47
-structures      > bookmark: 八、 貂孀发柴锗镥
-structure       > sectioning > jie @ level 3 : 0.3.2 -> 八、貂孀发柴锗镥
+structures      > bookmark: 八、 梨罐烈泼孜傺
+structure       > sectioning > jie @ level 3 : 0.3.2 -> 八、梨罐烈泼孜傺
 pages           > flushing realpage 48, userpage 38, subpage 48
 pages           > flushing realpage 49, userpage 39, subpage 49
 pages           > flushing realpage 50, userpage 40, subpage 50
-tex memory      > bumping category 'node' succeeded, details: all=45000000 | ini=0 | max=100000000 | mem=5000000 | min=2000000 | ptr=-10542 | set=50000000 | stp=500000 | top=4499999
+tex memory      > bumping category 'node' succeeded, details: all=45000000 | ini=0 | max=100000000 | mem=5000000 | min=2000000 | ptr=-10532 | set=50000000 | stp=500000 | top=4499996
 pages           > flushing realpage 51, userpage 41, subpage 51
-references      > unknown reference '[][妄建鞘郊浈毹岵法综犴拖祖刂滚汰锛宦嫒酏巧集42]'
 pages           > flushing realpage 52, userpage 42, subpage 52
-structures      > bookmark: 九、 股脐舷舵佃鲟
-structure       > sectioning > jie @ level 3 : 0.3.3 -> 九、股脐舷舵佃鲟
+structures      > bookmark: 九、 哙鲑挥帛赈卮
+structure       > sectioning > jie @ level 3 : 0.3.3 -> 九、哙鲑挥帛赈卮
 pages           > flushing realpage 53, userpage 43, subpage 53
 pages           > flushing realpage 54, userpage 44, subpage 54
 pages           > flushing realpage 55, userpage 45, subpage 55
+tex memory      > bumping category 'node' succeeded, details: all=49500000 | ini=0 | max=100000000 | mem=5500000 | min=2000000 | ptr=-10540 | set=50000000 | stp=500000 | top=4999997
 pages           > flushing realpage 56, userpage 46, subpage 56
-tex memory      > bumping category 'node' succeeded, details: all=49500000 | ini=0 | max=100000000 | mem=5500000 | min=2000000 | ptr=-11200 | set=50000000 | stp=500000 | top=4999994
 pages           > flushing realpage 57, userpage 47, subpage 57
 pages           > flushing realpage 58, userpage 48, subpage 58
-structures      > bookmark: 十、 诂狃楷 ， 俑悸迨
-structure       > sectioning > jie @ level 3 : 0.3.4 -> 十、诂狃楷，俑悸迨
+structures      > bookmark: 十、 轵邬箫 ， 苯坳豸
+structure       > sectioning > jie @ level 3 : 0.3.4 -> 十、轵邬箫，苯坳豸
 pages           > flushing realpage 59, userpage 49, subpage 59
 pages           > flushing realpage 60, userpage 50, subpage 60
 graphics        > compactors > registered: preset : default | demo | merge | tikz | yes
 graphics        > compactors > using: preset : default
 floatblocks     > '1' placed (right)
 pages           > flushing realpage 61, userpage 51, subpage 61
-tex memory      > bumping category 'node' succeeded, details: all=54000000 | ini=0 | max=100000000 | mem=6000000 | min=2000000 | ptr=-10554 | set=50000000 | stp=500000 | top=5499998
+tex memory      > bumping category 'node' succeeded, details: all=54000000 | ini=0 | max=100000000 | mem=6000000 | min=2000000 | ptr=-12601 | set=50000000 | stp=500000 | top=5499995
 pages           > flushing realpage 62, userpage 52, subpage 62
 pages           > flushing realpage 63, userpage 53, subpage 63
 pages           > flushing realpage 64, userpage 54, subpage 64
@@ -166,8 +163,7 @@ pages           > flushing realpage 65, userpage 55, subpage 65
 pages           > flushing realpage 66, userpage 56, subpage 66
 pack quality    > overfull hbox at line 1055 in file 'chapter3.tex':  [] (20.99609pt)
 floatblocks     > '2' placed (left)
-references      > unknown reference '[][瞪课肜悯踊霞诶蛞逾友筌敝57]'
-tex memory      > bumping category 'node' succeeded, details: all=58500000 | ini=0 | max=100000000 | mem=6500000 | min=2000000 | ptr=-10526 | set=50000000 | stp=500000 | top=5999998
+tex memory      > bumping category 'node' succeeded, details: all=58500000 | ini=0 | max=100000000 | mem=6500000 | min=2000000 | ptr=-10592 | set=50000000 | stp=500000 | top=5999986
 pages           > flushing realpage 67, userpage 57, subpage 67
 pages           > flushing realpage 68, userpage 58, subpage 68
 pages           > flushing realpage 69, userpage 59, subpage 69
@@ -175,50 +171,50 @@ floatblocks     > '3' placed (here)
 close source    > level 2, order 10, name 'chapter3.tex'
 open source     > level 2, order 11, name 'chapter4.tex'
 pages           > flushing realpage 70, userpage 60, subpage 70
-structures      > bookmark: 第四章 彤但肛崴氖铆苁
-structure       > sectioning > zhang @ level 2 : 0.4 -> 第四章 \q 彤但肛崴氖铆苁\footnote {庖特婵氤俱箧妣爽，匹坤蹈箨，蘧阡凄章，脍栩锲“撑坍”“勇赶”麾枯诃。簋嬉摧躐，“鲤铽”镎凌蚨远阮鄱獍纩剿若雠，“攥厥”胧恤蔡蚤躲蓬隰绡泓铺孙。}
-structures      > bookmark: 十一、 轱墉诔鞒霰诅厘蚤
-structure       > sectioning > jie @ level 3 : 0.4.1 -> 十一、轱墉诔鞒霰诅厘蚤
+structures      > bookmark: 第四章 蘼蔡洼鲛鹏抓祝
+structure       > sectioning > zhang @ level 2 : 0.4 -> 第四章 \q 蘼蔡洼鲛鹏抓祝\footnote {飧鳐雀辖伍煌踪栖，冯鹂淠绲，觑窟瘠章，狐衾艰“学线”“狲鳅”锏驼描。磲梢孱猊，“酗彖”急聋裉劭艄捣蔬软句与症，“镤钎”樨折琐贯蛮翅摊赈聋酐佚。}
+structures      > bookmark: 十一、 昭戌嬲虽乩熹戳吨
+structure       > sectioning > jie @ level 3 : 0.4.1 -> 十一、昭戌嬲虽乩熹戳吨
 pages           > flushing realpage 71, userpage 61, subpage 71
+tex memory      > bumping category 'node' succeeded, details: all=63000000 | ini=0 | max=100000000 | mem=7000000 | min=2000000 | ptr=-10544 | set=50000000 | stp=500000 | top=6499990
 pages           > flushing realpage 72, userpage 62, subpage 72
-tex memory      > bumping category 'node' succeeded, details: all=63000000 | ini=0 | max=100000000 | mem=7000000 | min=2000000 | ptr=-10550 | set=50000000 | stp=500000 | top=6499991
 pages           > flushing realpage 73, userpage 63, subpage 73
 pages           > flushing realpage 74, userpage 64, subpage 74
 pages           > flushing realpage 75, userpage 65, subpage 75
 pages           > flushing realpage 76, userpage 66, subpage 76
 floatblocks     > '4' placed (left)
+tex memory      > bumping category 'node' succeeded, details: all=67500000 | ini=0 | max=100000000 | mem=7500000 | min=2000000 | ptr=-10538 | set=50000000 | stp=500000 | top=6999995
 pages           > flushing realpage 77, userpage 67, subpage 77
-collector       > unknown collector 疒啪巛陲动粲蚧榴租
-collector       > unknown collector 殉酐戴酮屐喀珀笱掖
-collector       > unknown collector 跏计祥阌箭螃嗒霁值
+collector       > unknown collector 嗨蛤盔簌溅孵髂甥潆
+collector       > unknown collector 弟噜摺拔龆楹筅穴鼓
+collector       > unknown collector 撑隔诓鹞黼但犬乾悔
 floatblocks     > '5' placed (here)
-structures      > bookmark: 十二、 噩弁夏珥殷姿帮础盯响
-structure       > sectioning > jie @ level 3 : 0.4.2 -> 十二、噩弁夏珥殷姿帮础盯响
+structures      > bookmark: 十二、 殡舰撒禀龄砣猞虎淑恝
+structure       > sectioning > jie @ level 3 : 0.4.2 -> 十二、殡舰撒禀龄砣猞虎淑恝
 pages           > flushing realpage 78, userpage 68, subpage 78
-tex memory      > bumping category 'node' succeeded, details: all=67500000 | ini=0 | max=100000000 | mem=7500000 | min=2000000 | ptr=-11455 | set=50000000 | stp=500000 | top=6999991
-references      > unknown reference '[][溅昃纠企作榆璋腆偏佻陛冈鹣69]'
-references      > unknown reference '[][碇装楚锞鸡黎统绠霪讠孱祯搐69]'
+references      > unknown reference '[][匣剃唉颔镀槛枉杏夜乎泪萋跪69]'
+references      > unknown reference '[][沂调或绥范镟荦筋薏雉琚切逯69]'
 pages           > flushing realpage 79, userpage 69, subpage 79
 pages           > flushing realpage 80, userpage 70, subpage 80
 pages           > flushing realpage 81, userpage 71, subpage 81
-structures      > bookmark: 十三、 石粽狞至 ， 疼鳙蟠葳
-structure       > sectioning > jie @ level 3 : 0.4.3 -> 十三、石粽狞至，疼鳙蟠葳
+structures      > bookmark: 十三、 怏澶逄铿 ， 捐硇茌喀
+structure       > sectioning > jie @ level 3 : 0.4.3 -> 十三、怏澶逄铿，捐硇茌喀
 pages           > flushing realpage 82, userpage 72, subpage 82
+tex memory      > bumping category 'node' succeeded, details: all=72000000 | ini=0 | max=100000000 | mem=8000000 | min=2000000 | ptr=-10532 | set=50000000 | stp=500000 | top=7499987
 pages           > flushing realpage 83, userpage 73, subpage 83
-tex memory      > bumping category 'node' succeeded, details: all=72000000 | ini=0 | max=100000000 | mem=8000000 | min=2000000 | ptr=-10540 | set=50000000 | stp=500000 | top=7499999
 pages           > flushing realpage 84, userpage 74, subpage 84
 pages           > flushing realpage 85, userpage 75, subpage 85
 pages           > flushing realpage 86, userpage 76, subpage 86
-structures      > bookmark: 十四、 俘窜嫫跻隗膘酸泪削酒泻
-structure       > sectioning > jie @ level 3 : 0.4.4 -> 十四、俘窜嫫跻隗膘酸泪削酒泻
 pages           > flushing realpage 87, userpage 77, subpage 87
+structures      > bookmark: 十四、 怒屐爹笃商佚肀沌陧荬灬
+structure       > sectioning > jie @ level 3 : 0.4.4 -> 十四、怒屐爹笃商佚肀沌陧荬灬
+tex memory      > bumping category 'node' succeeded, details: all=76500000 | ini=0 | max=100000000 | mem=8500000 | min=2000000 | ptr=-10738 | set=50000000 | stp=500000 | top=7999997
 pages           > flushing realpage 88, userpage 78, subpage 88
-tex memory      > bumping category 'node' succeeded, details: all=76500000 | ini=0 | max=100000000 | mem=8500000 | min=2000000 | ptr=-11855 | set=50000000 | stp=500000 | top=7999990
 pages           > flushing realpage 89, userpage 79, subpage 89
 pages           > flushing realpage 90, userpage 80, subpage 90
 pages           > flushing realpage 91, userpage 81, subpage 91
 pages           > flushing realpage 92, userpage 82, subpage 92
-tex memory      > bumping category 'node' succeeded, details: all=81000000 | ini=0 | max=100000000 | mem=9000000 | min=2000000 | ptr=-11045 | set=50000000 | stp=500000 | top=8499997
+tex memory      > bumping category 'node' succeeded, details: all=81000000 | ini=0 | max=100000000 | mem=9000000 | min=2000000 | ptr=-12921 | set=50000000 | stp=500000 | top=8500000
 pages           > flushing realpage 93, userpage 83, subpage 93
 pages           > flushing realpage 94, userpage 84, subpage 94
 pages           > flushing realpage 95, userpage 85, subpage 95
@@ -227,164 +223,161 @@ close source    > level 2, order 11, name 'chapter4.tex'
 open source     > level 2, order 12, name 'chapter5.tex'
 pages           > flushing realpage 97, userpage 87, subpage 97
 pages           > flushing realpage 98, userpage 88, subpage 98
-structures      > bookmark: 第五章 孱膀泪佼骟啃濉
-structure       > sectioning > zhang @ level 2 : 0.5 -> 第五章 \q 孱膀泪佼骟啃濉
-structures      > bookmark: 十五、 呓午舜塾薛猸儇骠舛轱
-structure       > sectioning > jie @ level 3 : 0.5.1 -> 十五、呓午舜塾薛猸儇骠舛轱
+structures      > bookmark: 第五章 券张捣裰跸盗截
+structure       > sectioning > zhang @ level 2 : 0.5 -> 第五章 \q 券张捣裰跸盗截
+structures      > bookmark: 十五、 聂埝押劣唳鲈开寞扯佯
+structure       > sectioning > jie @ level 3 : 0.5.1 -> 十五、聂埝押劣唳鲈开寞扯佯
+tex memory      > bumping category 'node' succeeded, details: all=85500000 | ini=0 | max=100000000 | mem=9500000 | min=2000000 | ptr=-11023 | set=50000000 | stp=500000 | top=8999988
 pages           > flushing realpage 99, userpage 89, subpage 99
-tex memory      > bumping category 'node' succeeded, details: all=85500000 | ini=0 | max=100000000 | mem=9500000 | min=2000000 | ptr=-11037 | set=50000000 | stp=500000 | top=8999989
 pages           > flushing realpage 100, userpage 90, subpage 100
 pages           > flushing realpage 101, userpage 91, subpage 101
 pages           > flushing realpage 102, userpage 92, subpage 102
 pages           > flushing realpage 103, userpage 93, subpage 103
+tex memory      > bumping category 'node' succeeded, details: all=90000000 | ini=0 | max=100000000 | mem=10000000 | min=2000000 | ptr=-12215 | set=50000000 | stp=500000 | top=9499989
 pages           > flushing realpage 104, userpage 94, subpage 104
-structures      > bookmark: 十六、 祸窬痼厕黍涣边鹗峋
-structure       > sectioning > jie @ level 3 : 0.5.2 -> 十六、祸窬痼厕黍涣边鹗峋
+structures      > bookmark: 十六、 辽氤侠轻鞴馊夜均磔
+structure       > sectioning > jie @ level 3 : 0.5.2 -> 十六、辽氤侠轻鞴馊夜均磔
 pages           > flushing realpage 105, userpage 95, subpage 105
-references      > unknown reference '[][品菘乌壬蚋衩琪槎尊怍滇96]'
-tex memory      > bumping category 'node' succeeded, details: all=90000000 | ini=0 | max=100000000 | mem=10000000 | min=2000000 | ptr=-12502 | set=50000000 | stp=500000 | top=9499992
 pages           > flushing realpage 106, userpage 96, subpage 106
 pages           > flushing realpage 107, userpage 97, subpage 107
 pages           > flushing realpage 108, userpage 98, subpage 108
-structures      > bookmark: 十七、 睽掺 《颁称邕港》
-structure       > sectioning > jie @ level 3 : 0.5.3 -> 十七、睽掺《颁称邕港》
+structures      > bookmark: 十七、 姗绘 《线艇瑚皿》
+structure       > sectioning > jie @ level 3 : 0.5.3 -> 十七、姗绘《线艇瑚皿》
 pages           > flushing realpage 109, userpage 99, subpage 109
+tex memory      > bumping category 'node' succeeded, details: all=94500000 | ini=0 | max=100000000 | mem=10500000 | min=2000000 | ptr=-13336 | set=50000000 | stp=500000 | top=10000000
 pages           > flushing realpage 110, userpage 100, subpage 110
-tex memory      > bumping category 'node' succeeded, details: all=94500000 | ini=0 | max=100000000 | mem=10500000 | min=2000000 | ptr=-12193 | set=50000000 | stp=500000 | top=9999999
 pages           > flushing realpage 111, userpage 101, subpage 111
 pages           > flushing realpage 112, userpage 102, subpage 112
 close source    > level 2, order 12, name 'chapter5.tex'
 open source     > level 2, order 13, name 'chapter6.tex'
 pages           > flushing realpage 113, userpage 103, subpage 113
 pages           > flushing realpage 114, userpage 104, subpage 114
-structures      > bookmark: 第六章 讨颀郜锐蓦数妆
-structure       > sectioning > zhang @ level 2 : 0.6 -> 第六章 \q 讨颀郜锐蓦数妆
-structures      > bookmark: 十八、 铎帑楠窥涎怕信赤宜踯谗
-structure       > sectioning > jie @ level 3 : 0.6.1 -> 十八、铎帑楠窥涎怕信赤宜踯谗
+structures      > bookmark: 第六章 狐鬓耀孑捻崴摹
+structure       > sectioning > zhang @ level 2 : 0.6 -> 第六章 \q 狐鬓耀孑捻崴摹
+structures      > bookmark: 十八、 砍鲕搴陕兔策耕问标筐怖
+structure       > sectioning > jie @ level 3 : 0.6.1 -> 十八、砍鲕搴陕兔策耕问标筐怖
 pages           > flushing realpage 115, userpage 105, subpage 115
 pages           > flushing realpage 116, userpage 106, subpage 116
+tex memory      > bumping category 'node' succeeded, details: all=99000000 | ini=0 | max=100000000 | mem=11000000 | min=2000000 | ptr=-12209 | set=50000000 | stp=500000 | top=10499996
 pages           > flushing realpage 117, userpage 107, subpage 117
-tex memory      > bumping category 'node' succeeded, details: all=99000000 | ini=0 | max=100000000 | mem=11000000 | min=2000000 | ptr=-12215 | set=50000000 | stp=500000 | top=10499993
 pages           > flushing realpage 118, userpage 108, subpage 118
 pages           > flushing realpage 119, userpage 109, subpage 119
 pages           > flushing realpage 120, userpage 110, subpage 120
 pages           > flushing realpage 121, userpage 111, subpage 121
-structures      > bookmark: 十九、 倡锟撵跞 《怃裹癖刿续颏》
-structure       > sectioning > jie @ level 3 : 0.6.2 -> 十九、倡锟撵跞《怃裹癖刿续颏》
+structures      > bookmark: 十九、 华阁尿窆 《期求银觐臁仆》
+structure       > sectioning > jie @ level 3 : 0.6.2 -> 十九、华阁尿窆《期求银觐臁仆》
+tex memory      > bumping category 'node' succeeded, details: all=103500000 | ini=0 | max=100000000 | mem=11500000 | min=2000000 | ptr=-12207 | set=50000000 | stp=500000 | top=10999999
 pages           > flushing realpage 122, userpage 112, subpage 122
-tex memory      > bumping category 'node' succeeded, details: all=103500000 | ini=0 | max=100000000 | mem=11500000 | min=2000000 | ptr=-12243 | set=50000000 | stp=500000 | top=10999988
 pages           > flushing realpage 123, userpage 113, subpage 123
 pages           > flushing realpage 124, userpage 114, subpage 124
 pages           > flushing realpage 125, userpage 115, subpage 125
 pages           > flushing realpage 126, userpage 116, subpage 126
+tex memory      > bumping category 'node' succeeded, details: all=108000000 | ini=0 | max=100000000 | mem=12000000 | min=2000000 | ptr=-12197 | set=50000000 | stp=500000 | top=11500000
 pages           > flushing realpage 127, userpage 117, subpage 127
-structures      > bookmark: 二十、 货鞯蛾粤喋 《椒德似佞撮误》
-structure       > sectioning > jie @ level 3 : 0.6.3 -> 二十、货鞯蛾粤喋《椒德似佞撮误》
-tex memory      > bumping category 'node' succeeded, details: all=108000000 | ini=0 | max=100000000 | mem=12000000 | min=2000000 | ptr=-12256 | set=50000000 | stp=500000 | top=11499990
+structures      > bookmark: 二十、 伦珩诲亮磔 《禽殒娅骇滞拔》
+structure       > sectioning > jie @ level 3 : 0.6.3 -> 二十、伦珩诲亮磔《禽殒娅骇滞拔》
 pages           > flushing realpage 128, userpage 118, subpage 128
 pages           > flushing realpage 129, userpage 119, subpage 129
 pages           > flushing realpage 130, userpage 120, subpage 130
 pages           > flushing realpage 131, userpage 121, subpage 131
+tex memory      > bumping category 'node' succeeded, details: all=112500000 | ini=0 | max=100000000 | mem=12500000 | min=2000000 | ptr=-12203 | set=50000000 | stp=500000 | top=11999991
 pages           > flushing realpage 132, userpage 122, subpage 132
 pages           > flushing realpage 133, userpage 123, subpage 133
-tex memory      > bumping category 'node' succeeded, details: all=112500000 | ini=0 | max=100000000 | mem=12500000 | min=2000000 | ptr=-12231 | set=50000000 | stp=500000 | top=11999999
 pages           > flushing realpage 134, userpage 124, subpage 134
 close source    > level 2, order 13, name 'chapter6.tex'
 open source     > level 2, order 14, name 'chapter7.tex'
 pages           > flushing realpage 135, userpage 125, subpage 135
 pages           > flushing realpage 136, userpage 126, subpage 136
-structures      > bookmark: 第七章 槎矍诀遘铐耗桴
-structure       > sectioning > zhang @ level 2 : 0.7 -> 第七章 \q 槎矍诀遘铐耗桴
-structures      > bookmark: 廿一、 甲逦鉴锼隋凛鸩惑
-structure       > sectioning > jie @ level 3 : 0.7.1 -> 廿一、甲逦鉴锼隋凛鸩惑
+structures      > bookmark: 第七章 蔬犸秀喹槭晰蒯
+structure       > sectioning > zhang @ level 2 : 0.7 -> 第七章 \q 蔬犸秀喹槭晰蒯
+structures      > bookmark: 廿一、 蟋灯饴寸胬敷杵肆
+structure       > sectioning > jie @ level 3 : 0.7.1 -> 廿一、蟋灯饴寸胬敷杵肆
 pages           > flushing realpage 137, userpage 127, subpage 137
 pages           > flushing realpage 138, userpage 128, subpage 138
+tex memory      > bumping category 'node' succeeded, details: all=117000000 | ini=0 | max=100000000 | mem=13000000 | min=2000000 | ptr=-12245 | set=50000000 | stp=500000 | top=12499995
 pages           > flushing realpage 139, userpage 129, subpage 139
-tex memory      > bumping category 'node' succeeded, details: all=117000000 | ini=0 | max=100000000 | mem=13000000 | min=2000000 | ptr=-12211 | set=50000000 | stp=500000 | top=12499999
 pages           > flushing realpage 140, userpage 130, subpage 140
 pages           > flushing realpage 141, userpage 131, subpage 141
 pages           > flushing realpage 142, userpage 132, subpage 142
 pages           > flushing realpage 143, userpage 133, subpage 143
-structures      > bookmark: 廿二、 糍牾详卿锥轻鍪
-structure       > sectioning > jie @ level 3 : 0.7.2 -> 廿二、糍牾详卿锥轻鍪
+structures      > bookmark: 廿二、 苣荸箨历染狭镅
+structure       > sectioning > jie @ level 3 : 0.7.2 -> 廿二、苣荸箨历染狭镅
+tex memory      > bumping category 'node' succeeded, details: all=121500000 | ini=0 | max=100000000 | mem=13500000 | min=2000000 | ptr=-12209 | set=50000000 | stp=500000 | top=12999990
 pages           > flushing realpage 144, userpage 134, subpage 144
 pages           > flushing realpage 145, userpage 135, subpage 145
-references      > unknown reference '[][蛴概淑觜椐游赀匈账谑逍祝137]'
-tex memory      > bumping category 'node' succeeded, details: all=121500000 | ini=0 | max=100000000 | mem=13500000 | min=2000000 | ptr=-12261 | set=50000000 | stp=500000 | top=12999998
 pages           > flushing realpage 146, userpage 136, subpage 146
-references      > unknown reference '[][啥痒揠噪泾唪驱窿顺蟑哿囚137]'
 pages           > flushing realpage 147, userpage 137, subpage 147
 pages           > flushing realpage 148, userpage 138, subpage 148
+tex memory      > bumping category 'node' succeeded, details: all=126000000 | ini=0 | max=100000000 | mem=14000000 | min=2000000 | ptr=-12211 | set=50000000 | stp=500000 | top=13499999
 pages           > flushing realpage 149, userpage 139, subpage 149
-structures      > bookmark: 廿三、 辏慊衷鸪乙懒戎菜
-structure       > sectioning > jie @ level 3 : 0.7.3 -> 廿三、辏慊衷鸪乙懒戎菜
+structures      > bookmark: 廿三、 嘛鸢彰荬岗眠嶷姹
+structure       > sectioning > jie @ level 3 : 0.7.3 -> 廿三、嘛鸢彰荬岗眠嶷姹
 pages           > flushing realpage 150, userpage 140, subpage 150
-tex memory      > bumping category 'node' succeeded, details: all=126000000 | ini=0 | max=100000000 | mem=14000000 | min=2000000 | ptr=-12207 | set=50000000 | stp=500000 | top=13499996
 pages           > flushing realpage 151, userpage 141, subpage 151
 pages           > flushing realpage 152, userpage 142, subpage 152
 pages           > flushing realpage 153, userpage 143, subpage 153
+tex memory      > bumping category 'node' succeeded, details: all=130500000 | ini=0 | max=100000000 | mem=14500000 | min=2000000 | ptr=-12203 | set=50000000 | stp=500000 | top=13999991
 pages           > flushing realpage 154, userpage 144, subpage 154
 pages           > flushing realpage 155, userpage 145, subpage 155
 close source    > level 2, order 14, name 'chapter7.tex'
 open source     > level 2, order 15, name 'chapter8.tex'
 pages           > flushing realpage 156, userpage 146, subpage 156
-structures      > bookmark: 第八章 辜璜嫣详稆脏章
-structure       > sectioning > zhang @ level 2 : 0.8 -> 第八章 \q 辜璜嫣详稆脏章
-structures      > bookmark: 廿四、 溃雒 《莳船鲛择蛹飑》
-structure       > sectioning > jie @ level 3 : 0.8.1 -> 廿四、溃雒《莳船鲛择蛹飑》
-structures      > bookmark: 伶汕 ， 埘觥一瑗垩箍袭蠼掷竟遇穰陨赈絷婷。
-structure       > sectioning > xiaojie @ level 4 : 0.8.1.1 ->  伶汕，埘觥一瑗垩箍袭蠼掷竟遇穰陨赈絷婷。
-tex memory      > bumping category 'node' succeeded, details: all=130500000 | ini=0 | max=100000000 | mem=14500000 | min=2000000 | ptr=-12189 | set=50000000 | stp=500000 | top=13999995
+structures      > bookmark: 第八章 侩噍腕钙弋狒章
+structure       > sectioning > zhang @ level 2 : 0.8 -> 第八章 \q 侩噍腕钙弋狒章
+structures      > bookmark: 廿四、 捅缰 《浪帖蛤闺撷笪》
+structure       > sectioning > jie @ level 3 : 0.8.1 -> 廿四、捅缰《浪帖蛤闺撷笪》
+structures      > bookmark: 锩囊 ， 纩城一囹馀伯娇鸾鲇谟遏暑颖诶廓阆。
+structure       > sectioning > xiaojie @ level 4 : 0.8.1.1 ->  锩囊，纩城一囹馀伯娇鸾鲇谟遏暑颖诶廓阆。
 pages           > flushing realpage 157, userpage 147, subpage 157
-structures      > bookmark: 朗翌 ， 蹩扔一缤轿藐橄潭荥匿乎亲洳滢凸。
-structure       > sectioning > xiaojie @ level 4 : 0.8.1.2 ->  朗翌，蹩扔一缤轿藐橄潭荥匿乎亲洳滢凸。
-structures      > bookmark: 袜砉 ， 硌帜一蔻襁痨芥惑明蚶篮莼捍浏萜绞撵砂丐。
-structure       > sectioning > xiaojie @ level 4 : 0.8.1.3 ->  袜砉，硌帜一蔻襁痨芥惑明蚶篮莼捍浏萜绞撵砂丐。
+structures      > bookmark: 臊匚 ， 岗双一午蓼咭璀颠抹蕈盼饬宇壶钮。
+structure       > sectioning > xiaojie @ level 4 : 0.8.1.2 ->  臊匚，岗双一午蓼咭璀颠抹蕈盼饬宇壶钮。
+structures      > bookmark: 洋锐 ， 躏榫一蕨芾涡啾弓裟媲家朴低舔撰节蹉侍吉。
+structure       > sectioning > xiaojie @ level 4 : 0.8.1.3 ->  洋锐，躏榫一蕨芾涡啾弓裟媲家朴低舔撰节蹉侍吉。
 pages           > flushing realpage 158, userpage 148, subpage 158
-structures      > bookmark: 莸殡 ， 垓破芽夭一聃裱灵绘德键 《娜涎瘊囤愠瑗》 躐皱鸟。
-structure       > sectioning > xiaojie @ level 4 : 0.8.1.4 ->  莸殡，垓破芽夭一聃裱灵绘德键《娜涎瘊囤愠瑗》躐皱鸟。
+structures      > bookmark: 呱猡 ， 睾逐绀埽一戊岩忽喉枚咧 《悖垓怜芨谛青》 瞽褶镛。
+structure       > sectioning > xiaojie @ level 4 : 0.8.1.4 ->  呱猡，睾逐绀埽一戊岩忽喉枚咧《悖垓怜芨谛青》瞽褶镛。
 pages           > flushing realpage 159, userpage 149, subpage 159
+tex memory      > bumping category 'node' succeeded, details: all=135000000 | ini=0 | max=100000000 | mem=15000000 | min=2000000 | ptr=-12211 | set=50000000 | stp=500000 | top=14499998
 pages           > flushing realpage 160, userpage 150, subpage 160
 pages           > flushing realpage 161, userpage 151, subpage 161
-tex memory      > bumping category 'node' succeeded, details: all=135000000 | ini=0 | max=100000000 | mem=15000000 | min=2000000 | ptr=-12205 | set=50000000 | stp=500000 | top=14499990
 pages           > flushing realpage 162, userpage 152, subpage 162
 pages           > flushing realpage 163, userpage 153, subpage 163
-structures      > bookmark: 廿五、 嫱察 《暑鹱》 构唼薯祚
-structure       > sectioning > jie @ level 3 : 0.8.2 -> 廿五、嫱察《暑鹱》构唼薯祚
+structures      > bookmark: 廿五、 萤肢 《恫芾》 揍垭成豪
+structure       > sectioning > jie @ level 3 : 0.8.2 -> 廿五、萤肢《恫芾》揍垭成豪
 pages           > flushing realpage 164, userpage 154, subpage 164
-structures      > bookmark: 缶柿 ， 住摭 1956 郄绫 1958 椒芳桂鲂尴很骨剁抖粉吾氍级、 疵毁踢膨帕矾裸驭 ， 涌一荇越 《戾菟》 《热署》 豺汕独拓佴屺探恺痱。
-structure       > sectioning > xiaojie @ level 4 : 0.8.2.1 -> 缶柿，住摭1956郄绫1958椒芳桂鲂尴很骨剁抖粉吾氍级、疵毁踢膨帕矾裸驭，涌一荇越《戾菟》《热署》豺汕独拓佴屺探恺痱。
+structures      > bookmark: 迥陛 ， 瘀螵 1956 奋伲 1958 颇杳蒎仕掘碾楔却股氽彼芒尚、 你箍殳鸣用澧戮仲 ， 屿一螫馋 《仟孕》 《撒焊》 臼辊腭鹫负镳伢硼懑。
+structure       > sectioning > xiaojie @ level 4 : 0.8.2.1 -> 迥陛，瘀螵1956奋伲1958颇杳蒎仕掘碾楔却股氽彼芒尚、你箍殳鸣用澧戮仲，屿一螫馋《仟孕》《撒焊》臼辊腭鹫负镳伢硼懑。
+tex memory      > bumping category 'node' succeeded, details: all=139500000 | ini=0 | max=100000000 | mem=15500000 | min=2000000 | ptr=-12197 | set=50000000 | stp=500000 | top=14999998
 pages           > flushing realpage 165, userpage 155, subpage 165
-structures      > bookmark: 忆千 ， 蹁桁鲒悱貉爽 《胞垭》 背桎 ， 窝圄皱涵碑荨掠项狈橛 《跆熘仳钽强蓊摞腈荷汗》 啵。
-structure       > sectioning > xiaojie @ level 4 : 0.8.2.2 -> 忆千，蹁桁鲒悱貉爽《胞垭》背桎，窝圄皱涵碑荨掠项狈橛《跆熘仳钽强蓊摞腈荷汗》啵。
 pages           > flushing realpage 166, userpage 156, subpage 166
-tex memory      > bumping category 'node' succeeded, details: all=139500000 | ini=0 | max=100000000 | mem=15500000 | min=2000000 | ptr=-12197 | set=50000000 | stp=500000 | top=14999997
+structures      > bookmark: 逞氍 ， 匕谔遢钜洛蜓 《噗玷》 蛊袂 ， 谷辜爪铅扈诿飙摒莩抓 《髫饲炯蹰紧剁詈羧独伐》 峄。
+structure       > sectioning > xiaojie @ level 4 : 0.8.2.2 -> 逞氍，匕谔遢钜洛蜓《噗玷》蛊袂，谷辜爪铅扈诿飙摒莩抓《髫饲炯蹰紧剁詈羧独伐》峄。
 pages           > flushing realpage 167, userpage 157, subpage 167
 pages           > flushing realpage 168, userpage 158, subpage 168
-structures      > bookmark: 蜀否 ， 蛭鹁炕诚 《振纶寺靡臬芷咙圳鳓跹 （瞽啭）》 骱蔫肇金初班撤摭羽 《横嗳》 逐浈倍。
-structure       > sectioning > xiaojie @ level 4 : 0.8.2.3 -> 蜀否，蛭鹁炕诚《振纶寺靡臬芷咙圳鳓跹（瞽啭）》骱蔫肇金初班撤摭羽《横嗳》逐浈倍。
+structures      > bookmark: 叙煸 ， 豇缌镱钿 《息撵江测懈餮棺筋甄寿 （扪猖）》 郁灞侧绝淀朽刑瘗雁 《毁吱》 柩证鹰。
+structure       > sectioning > xiaojie @ level 4 : 0.8.2.3 -> 叙煸，豇缌镱钿《息撵江测懈餮棺筋甄寿（扪猖）》郁灞侧绝淀朽刑瘗雁《毁吱》柩证鹰。
 pages           > flushing realpage 169, userpage 159, subpage 169
-structures      > bookmark: 趱惚 ， 剁孜 《镥血》 坶钴苋彭丬 ， 呤 1956 愉琐蔻髻劈璎嘿历膜嗜祉琅郛拳蝤 ， 茳押禁辁氖嘉娜蜥泶丛帻块胼纫洁爵纱。
-structure       > sectioning > xiaojie @ level 4 : 0.8.2.4 -> 趱惚，剁孜《镥血》坶钴苋彭丬，呤1956愉琐蔻髻劈璎嘿历膜嗜祉琅郛拳蝤，茳押禁辁氖嘉娜蜥泶丛帻块胼纫洁爵纱。
 pages           > flushing realpage 170, userpage 160, subpage 170
+structures      > bookmark: 庖栗 ， 乐过 《斗掭》 鲷勉公洼粘 ， 飙 1956 辞黾宾觥尺铰祉镨延鸨栾怿怅荡般 ， 瑶吟贲涩课斫飨肮渔啖贡镫铧汝障芸刺。
+structure       > sectioning > xiaojie @ level 4 : 0.8.2.4 -> 庖栗，乐过《斗掭》鲷勉公洼粘，飙1956辞黾宾觥尺铰祉镨延鸨栾怿怅荡般，瑶吟贲涩课斫飨肮渔啖贡镫铧汝障芸刺。
+tex memory      > bumping category 'node' succeeded, details: all=144000000 | ini=0 | max=100000000 | mem=16000000 | min=2000000 | ptr=-12773 | set=50000000 | stp=500000 | top=15499998
 pages           > flushing realpage 171, userpage 161, subpage 171
-structures      > bookmark: 廿六、 秃榫汴逾根温钌拴
-structure       > sectioning > jie @ level 3 : 0.8.3 -> 廿六、秃榫汴逾根温钌拴
+structures      > bookmark: 廿六、 型鬣郡耧叫裕驰危
+structure       > sectioning > jie @ level 3 : 0.8.3 -> 廿六、型鬣郡耧叫裕驰危
 pages           > flushing realpage 172, userpage 162, subpage 172
-tex memory      > bumping category 'node' succeeded, details: all=144000000 | ini=0 | max=100000000 | mem=16000000 | min=2000000 | ptr=-14332 | set=50000000 | stp=500000 | top=15499991
 pages           > flushing realpage 173, userpage 163, subpage 173
 pages           > flushing realpage 174, userpage 164, subpage 174
 pages           > flushing realpage 175, userpage 165, subpage 175
+tex memory      > bumping category 'node' succeeded, details: all=148500000 | ini=0 | max=100000000 | mem=16500000 | min=2000000 | ptr=-12193 | set=50000000 | stp=500000 | top=15999994
 pages           > flushing realpage 176, userpage 166, subpage 176
 close source    > level 2, order 15, name 'chapter8.tex'
 open source     > level 2, order 16, name 'chapter9.tex'
 pages           > flushing realpage 177, userpage 167, subpage 177
 pages           > flushing realpage 178, userpage 168, subpage 178
-structures      > bookmark: 第九章 滨史茼栽瑾技蟒朝栖萏
-structure       > sectioning > zhang @ level 2 : 0.9 -> 第九章 \q 滨史茼栽瑾技蟒朝栖萏
-structures      > bookmark: 廿七、 掮勉 《磺君锞姑恨袱贵昆》
-structure       > sectioning > jie @ level 3 : 0.9.1 -> 廿七、掮勉《磺君锞姑恨袱贵昆》
-tex memory      > bumping category 'node' succeeded, details: all=148500000 | ini=0 | max=100000000 | mem=16500000 | min=2000000 | ptr=-12193 | set=50000000 | stp=500000 | top=15999995
+structures      > bookmark: 第九章 刀绺犀喘缥娱宛锯且榔
+structure       > sectioning > zhang @ level 2 : 0.9 -> 第九章 \q 刀绺犀喘缥娱宛锯且榔
+structures      > bookmark: 廿七、 纽立 《鹇蜕痞肪痘账坪言》
+structure       > sectioning > jie @ level 3 : 0.9.1 -> 廿七、纽立《鹇蜕痞肪痘账坪言》
 pages           > flushing realpage 179, userpage 169, subpage 179
 pages           > flushing realpage 180, userpage 170, subpage 180
 pages           > flushing realpage 181, userpage 171, subpage 181
@@ -408,6 +401,7 @@ floatblocks     > '8' placed (here)
 pack quality    > overfull vbox at line 203 in file 'chapter9.tex'
 pack quality    > overfull vbox at line 203 in file 'chapter9.tex'
 pack quality    > overfull vbox at line 203 in file 'chapter9.tex'
+tex memory      > bumping category 'node' succeeded, details: all=153000000 | ini=0 | max=100000000 | mem=17000000 | min=2000000 | ptr=-12846 | set=50000000 | stp=500000 | top=16499992
 floatblocks     > '9' placed (here)
 pack quality    > overfull vbox at line 219 in file 'chapter9.tex'
 pack quality    > overfull vbox at line 219 in file 'chapter9.tex'
@@ -416,211 +410,178 @@ floatblocks     > '10' placed (here)
 pages           > flushing realpage 183, userpage 173, subpage 183
 floatblocks     > '11' placed (here)
 pages           > flushing realpage 184, userpage 174, subpage 184
-structures      > bookmark: 撺氵一钋筋一崇示今墒稳顽癫沈杂垄嚓迦酽 ， 驾颅被黑巾耍囡筢邋碓删再蒋秉堀儡抟亳逅凡。
-structure       > sectioning > xiaojie @ level 4 : 0.9.1.1 -> 撺氵一钋筋一崇示今墒稳顽癫沈杂垄嚓迦酽，驾颅被黑巾耍囡筢邋碓删再蒋秉堀儡抟亳逅凡。
-tex memory      > bumping category 'node' succeeded, details: all=153000000 | ini=0 | max=100000000 | mem=17000000 | min=2000000 | ptr=-13923 | set=50000000 | stp=500000 | top=16499995
+structures      > bookmark: 捣赠一姗柯一垃畿珀羞州郅挣楠郯咱加薷颡 ， 乎痢贬珈扫舾咎祆骂喱颧谈辜迈女惕午骡硗闵。
+structure       > sectioning > xiaojie @ level 4 : 0.9.1.1 -> 捣赠一姗柯一垃畿珀羞州郅挣楠郯咱加薷颡，乎痢贬珈扫舾咎祆骂喱颧谈辜迈女惕午骡硗闵。
 pages           > flushing realpage 185, userpage 175, subpage 185
 pages           > flushing realpage 186, userpage 176, subpage 186
-structures      > bookmark: 懋沅浼一研 《潴臬敌堤鲐彦檗枋》 蔟笠仕胸沃 ， 瀚蓟腩铣脐儒痖獾蹑。
-structure       > sectioning > xiaojie @ level 4 : 0.9.1.2 -> 懋沅浼一研《潴臬敌堤鲐彦檗枋》蔟笠仕胸沃，瀚蓟腩铣脐儒痖獾蹑。
+structures      > bookmark: 鬈髓窄一略 《磺覃瞽合呃突蠕酡》 憩鲻氖渚扼 ， 诂痢蛳妤诩灼梭会揪。
+structure       > sectioning > xiaojie @ level 4 : 0.9.1.2 -> 鬈髓窄一略《磺覃瞽合呃突蠕酡》憩鲻氖渚扼，诂痢蛳妤诩灼梭会揪。
 pages           > flushing realpage 187, userpage 177, subpage 187
-structures      > bookmark: 廿八、 介鸿 《缂片钞弋绱翁》
-structure       > sectioning > jie @ level 3 : 0.9.2 -> 廿八、介鸿《缂片钞弋绱翁》
+structures      > bookmark: 廿八、 嵛膝 《辊茺捶狃哄蚌》
+structure       > sectioning > jie @ level 3 : 0.9.2 -> 廿八、嵛膝《辊茺捶狃哄蚌》
+tex memory      > bumping category 'node' succeeded, details: all=157500000 | ini=0 | max=100000000 | mem=17500000 | min=2000000 | ptr=-12201 | set=50000000 | stp=500000 | top=16999992
 pages           > flushing realpage 188, userpage 178, subpage 188
-structures      > bookmark: 抚鬻 ， 嘀一驾澎鼹嵝撬璃瀑潲妄酬襄充霏寡屑 《蓑搡蔽荐枢继》 桫旭孽烹锯。
-structure       > sectioning > xiaojie @ level 4 : 0.9.2.1 -> 抚鬻，嘀一驾澎鼹嵝撬璃瀑潲妄酬襄充霏寡屑《蓑搡蔽荐枢继》桫旭孽烹锯。
+structures      > bookmark: 萎噱 ， 纷一捩璎诖镔烫娘蝗帅鸲卵迭笤鸽瓷潦 《愦恳源婧鼐貅》 缂淡塌鏖玢。
+structure       > sectioning > xiaojie @ level 4 : 0.9.2.1 -> 萎噱，纷一捩璎诖镔烫娘蝗帅鸲卵迭笤鸽瓷潦《愦恳源婧鼐貅》缂淡塌鏖玢。
 pages           > flushing realpage 189, userpage 179, subpage 189
-structures      > bookmark: 汶顼 ， 硎一睛抻拔婧缇剖 《黻耙碟栝酴财》 “盍鞭可” 疸逭打甯衣依堍。
-structure       > sectioning > xiaojie @ level 4 : 0.9.2.2 -> 汶顼，硎一睛抻拔婧缇剖《黻耙碟栝酴财》“盍鞭可”疸逭打甯衣依堍。
-tex memory      > bumping category 'node' succeeded, details: all=157500000 | ini=0 | max=100000000 | mem=17500000 | min=2000000 | ptr=-12197 | set=50000000 | stp=500000 | top=16999996
+structures      > bookmark: 劓碡 ， 哭一摒顺瞅粥榜畿 《修聆总相霪恚》 “菌窦至” 埕砧舳甘螃骆那。
+structure       > sectioning > xiaojie @ level 4 : 0.9.2.2 -> 劓碡，哭一摒顺瞅粥榜畿《修聆总相霪恚》“菌窦至”埕砧舳甘螃骆那。
 pages           > flushing realpage 190, userpage 180, subpage 190
-structures      > bookmark: 壹何 ， 葫或黻录奎璎字燹肘 《〈搡剀浸绉稣纭〉 躅盟拈悸溘》 ， 闺喙普熠一搏 “兹障荽” 脲雩锇。
-structure       > sectioning > xiaojie @ level 4 : 0.9.2.3 -> 壹何，葫或黻录奎璎字燹肘《〈搡剀浸绉稣纭〉躅盟拈悸溘》，闺喙普熠一搏“兹障荽”脲雩锇。
+structures      > bookmark: 渊踩 ， 篱恢邱录擦纺窠辂闵 《〈箫雪虼氐掺儆〉 物圾奖蹴庚》 ， 疆渭符栾一筇 “汶禅乙” 饷糕烹。
+structure       > sectioning > xiaojie @ level 4 : 0.9.2.3 -> 渊踩，篱恢邱录擦纺窠辂闵《〈箫雪虼氐掺儆〉物圾奖蹴庚》，疆渭符栾一筇“汶禅乙”饷糕烹。
 pages           > flushing realpage 191, userpage 181, subpage 191
 pages           > flushing realpage 192, userpage 182, subpage 192
 pages           > flushing realpage 193, userpage 183, subpage 193
-structures      > bookmark: 廿九、 “己勐兜朽” 榆切泫粒铺漕
-structure       > sectioning > jie @ level 3 : 0.9.3 -> 廿九、“己勐兜朽”榆切泫粒铺漕
+tex memory      > bumping category 'node' succeeded, details: all=162000000 | ini=0 | max=100000000 | mem=18000000 | min=2000000 | ptr=-14726 | set=50000000 | stp=500000 | top=17499987
+structures      > bookmark: 廿九、 “枞发琛昭” 蛭摸撰眢瘁话
+structure       > sectioning > jie @ level 3 : 0.9.3 -> 廿九、“枞发琛昭”蛭摸撰眢瘁话
 pages           > flushing realpage 194, userpage 184, subpage 194
 pages           > flushing realpage 195, userpage 185, subpage 195
-structures      > bookmark: 痉畋 ， 幽章牝咋嘴第一奘 “割戾癌谕” 赐 ， 遂璐满郊饥守钲黛轶祠渖。
-structure       > sectioning > xiaojie @ level 4 : 0.9.3.1 -> 痉畋，幽章牝咋嘴第一奘“割戾癌谕”赐，遂璐满郊饥守钲黛轶祠渖。
-structures      > bookmark: 一缮 ， 磅拊灰烫辜胥糊卢 ， 疏厕箫螗屦旆箫余瓷例簌虫傣蓁。
-structure       > sectioning > xiaoxiaojie @ level 5 : 0.9.3.1.1 -> 一缮，磅拊灰烫辜胥糊卢，疏厕箫螗屦旆箫余瓷例簌虫傣蓁。
-tex memory      > bumping category 'node' succeeded, details: all=162000000 | ini=0 | max=100000000 | mem=18000000 | min=2000000 | ptr=-12211 | set=50000000 | stp=500000 | top=17500000
+structures      > bookmark: 濒镩 ， 礴章楫摩玫第一籍 “鳟窕巯翟” 缪 ， 蓉绛奎贡臣坝痫饵递剞嗄。
+structure       > sectioning > xiaojie @ level 4 : 0.9.3.1 -> 濒镩，礴章楫摩玫第一籍“鳟窕巯翟”缪，蓉绛奎贡臣坝痫饵递剞嗄。
+structures      > bookmark: 一烤 ， 现峻姝饿订槐唢默 ， 进锑馑铋性蜓扎憎鄯锥蛆悄诳浑。
+structure       > sectioning > xiaoxiaojie @ level 5 : 0.9.3.1.1 -> 一烤，现峻姝饿订槐唢默，进锑馑铋性蜓扎憎鄯锥蛆悄诳浑。
 pages           > flushing realpage 196, userpage 186, subpage 196
-references      > unknown reference '[][阑撅鹄虼林驷登笼冕揭貅锕娉颊杌磋187]'
-structures      > bookmark: 一虽 ， 撕枳锣雳明娈鞲顾也氆窗白蜞陇疝篡褶钰 ， 昝远镞厌挛缸奕槁追仡酪漶船貉。
-structure       > sectioning > xiaoxiaojie @ level 5 : 0.9.3.1.2 -> 一虽，撕枳锣雳明娈鞲顾也氆窗白蜞陇疝篡褶钰，昝远镞厌挛缸奕槁追仡酪漶船貉。
-references      > unknown reference '[][澧譬盗砷艇飓团衲肯鎏杖膝褴擀吞餐188]'
+structures      > bookmark: 一箨 ， 栽鸬洽遗立听祢杠渍器详鹆罐碑瑗宗觖蠡 ， 瓤浅眍蜜丐魈漱禳周毋郗郧慵夸。
+structure       > sectioning > xiaoxiaojie @ level 5 : 0.9.3.1.2 -> 一箨，栽鸬洽遗立听祢杠渍器详鹆罐碑瑗宗觖蠡，瓤浅眍蜜丐魈漱禳周毋郗郧慵夸。
 pages           > flushing realpage 197, userpage 187, subpage 197
-references      > unknown reference '[][瞌脖栖魏趣剖牦镭骁胩珂魉岑巳芒彪188]'
 pages           > flushing realpage 198, userpage 188, subpage 198
-references      > unknown reference '[][謇苞纷抱面钉怫茨艉鲍届疠鞔赤琴锱189]'
-references      > unknown reference '[][砝拼舀裔丧蹇睐礼礼汾析食189]'
-structures      > bookmark: 刳铯 ， 圯章涯绐吃第二染 “绰狐玢苇” 扛 ， 予爰翱肤歆 “唠僻一僵酶掾挲锾辂” ， 檬徘霁弦边箴痘架蛑咔舱喂菘 （择御嗲鲨孕） ， 倒酌偕芨毖拴 （瘃序浔聊付）。
-structure       > sectioning > xiaojie @ level 4 : 0.9.3.2 -> 刳铯，圯章涯绐吃第二染“绰狐玢苇”扛，予爰翱肤歆“唠僻一僵酶掾挲锾辂”，檬徘霁弦边箴痘架蛑咔舱喂菘（择御嗲鲨孕），倒酌偕芨毖拴（瘃序浔聊付）。
-references      > unknown reference '[][涞巅逅赣乞蒂詹炱蛸呕歹缴饕娜纣戤190]'
+tex memory      > bumping category 'node' succeeded, details: all=166500000 | ini=0 | max=100000000 | mem=18500000 | min=2000000 | ptr=-13007 | set=50000000 | stp=500000 | top=17999991
+structures      > bookmark: 怨吴 ， 拥章舂惟丰第二鲰 “诗会犒帕” 翠 ， 丸疋屈昏辉 “谊阙一阢腧科怖涠斓” ， 涮嚯镦苣镌崾钟薅裕渠拎祆雕 （轭蠊种但铑） ， 少榜趑坏鼽垦 （仔序腋鸠逯）。
+structure       > sectioning > xiaojie @ level 4 : 0.9.3.2 -> 怨吴，拥章舂惟丰第二鲰“诗会犒帕”翠，丸疋屈昏辉“谊阙一阢腧科怖涠斓”，涮嚯镦苣镌崾钟薅裕渠拎祆雕（轭蠊种但铑），少榜趑坏鼽垦（仔序腋鸠逯）。
 pages           > flushing realpage 199, userpage 189, subpage 199
-references      > unknown reference '[][负凭泥睦邢窠每散臾蹰鹋掖悫帚捃疖190]'
-references      > unknown reference '[][且蜉噬郓攘泵愠轳肼觞布拦赶咋腈夼190]'
-references      > unknown reference '[][翅扈吮瘅哙疔泼逗咱腼蛮骱谳睢猁腊190]'
-references      > unknown reference '[][钓葵躐忘哜眄锸恻卿遁蕺适藕蝣标殒190]'
-references      > unknown reference '[][衲冥避氦惑猗浍埕疚昴茌求坳遄街脶191]'
 pages           > flushing realpage 200, userpage 190, subpage 200
-references      > unknown reference '[][杂慝砭扌涓莓登蒲辎郄卜豢羯攀娣荜191]'
-references      > unknown reference '[][埘狎葶樱笸菀鼯铱缉麾祯鸣鬻擒获俑191]'
-references      > unknown reference '[][麝璁胀瑷瑭嘧垫掇厅幼搿尜莹汶胬挹191]'
-references      > unknown reference '[][坂烯埋麇弟雾件面喔番幡茇朋可水镲191]'
-tex memory      > bumping category 'node' succeeded, details: all=166500000 | ini=0 | max=100000000 | mem=18500000 | min=2000000 | ptr=-13066 | set=50000000 | stp=500000 | top=17999995
-references      > unknown reference '[][帚焦眢憝膳嫂兜湓翕契玄波躔嗣觋俨192]'
 pages           > flushing realpage 201, userpage 191, subpage 201
-references      > unknown reference '[][滇弟蜣橡怯矧鸡麓嗖睢耋肷湓扑蜀晡192]'
-references      > unknown reference '[][踩苟稳骱槎舜吁味瞰防品妗岷枘笏淦192]'
-structures      > bookmark: 三十、 碱勃笕法咏翕己
-structure       > sectioning > jie @ level 3 : 0.9.4 -> 三十、碱勃笕法咏翕己
+structures      > bookmark: 三十、 驾钕溘蘖穿则京
+structure       > sectioning > jie @ level 3 : 0.9.4 -> 三十、驾钕溘蘖穿则京
 pages           > flushing realpage 202, userpage 192, subpage 202
-structures      > bookmark: （一） 铌 “五七骤鳎” 橛蟾
-structure       > sectioning > xiaojie @ level 4 : 0.9.4.1 -> （一）铌“五七骤鳎”橛蟾
+structures      > bookmark: （一） 戊 “五七荩趣” 诎棱
+structure       > sectioning > xiaojie @ level 4 : 0.9.4.1 -> （一）戊“五七荩趣”诎棱
+tex memory      > bumping category 'node' succeeded, details: all=171000000 | ini=0 | max=100000000 | mem=19000000 | min=2000000 | ptr=-12185 | set=50000000 | stp=500000 | top=18499996
 pages           > flushing realpage 203, userpage 193, subpage 203
-references      > unknown reference '[][杌媒舻僦舱嫦194]'
-references      > unknown reference '[][颌仕掌鲢弈吾194]'
-references      > unknown reference '[][御勘磷旨硇宵194]'
 pages           > flushing realpage 204, userpage 194, subpage 204
-structures      > bookmark: （二） 搡囔、 泖诤珑跪斧
-structure       > sectioning > xiaojie @ level 4 : 0.9.4.2 -> （二）搡囔、泖诤珑跪斧
+structures      > bookmark: （二） 卸慷、 熬囱砸堞胎
+structure       > sectioning > xiaojie @ level 4 : 0.9.4.2 -> （二）卸慷、熬囱砸堞胎
 pages           > flushing realpage 205, userpage 195, subpage 205
-tex memory      > bumping category 'node' succeeded, details: all=171000000 | ini=0 | max=100000000 | mem=19000000 | min=2000000 | ptr=-12199 | set=50000000 | stp=500000 | top=18499996
 pages           > flushing realpage 206, userpage 196, subpage 206
-structures      > bookmark: （三） 殖市波且竺醺还
-structure       > sectioning > xiaojie @ level 4 : 0.9.4.3 -> （三）殖市波且竺醺还
 pages           > flushing realpage 207, userpage 197, subpage 207
+structures      > bookmark: （三） 廪碉镅喾嗜矩鬯
+structure       > sectioning > xiaojie @ level 4 : 0.9.4.3 -> （三）廪碉镅喾嗜矩鬯
 pages           > flushing realpage 208, userpage 198, subpage 208
-references      > unknown reference '[][缩锴哈翼砟圈浩嚆肘钱刨侈199]'
+tex memory      > bumping category 'node' succeeded, details: all=175500000 | ini=0 | max=100000000 | mem=19500000 | min=2000000 | ptr=-12552 | set=50000000 | stp=500000 | top=18999989
 pages           > flushing realpage 209, userpage 199, subpage 209
 close source    > level 2, order 16, name 'chapter9.tex'
 open source     > level 2, order 17, name 'chapter10.tex'
 pages           > flushing realpage 210, userpage 200, subpage 210
-structures      > bookmark: 第十章 蹒踏母揠 ， 敌硬昶兕箢族
-structure       > sectioning > zhang @ level 2 : 0.10 -> 第十章 \q 蹒踏母揠，敌硬昶兕箢族
-structures      > bookmark: 卅一、 告昃 《慰养惹铍》 卜踯
-structure       > sectioning > jie @ level 3 : 0.10.1 -> 卅一、告昃《慰养惹铍》卜踯
+structures      > bookmark: 第十章 髭阝药狷 ， 雠蠡韧讳椿桕
+structure       > sectioning > zhang @ level 2 : 0.10 -> 第十章 \q 髭阝药狷，雠蠡韧讳椿桕
+structures      > bookmark: 卅一、 肼蛋 《耆虚姚屏》 犰崂
+structure       > sectioning > jie @ level 3 : 0.10.1 -> 卅一、肼蛋《耆虚姚屏》犰崂
 pages           > flushing realpage 211, userpage 201, subpage 211
-tex memory      > bumping category 'node' succeeded, details: all=175500000 | ini=0 | max=100000000 | mem=19500000 | min=2000000 | ptr=-12207 | set=50000000 | stp=500000 | top=18999999
 pages           > flushing realpage 212, userpage 202, subpage 212
-structures      > bookmark: （一） 邙嵝鹰孓赣浸拯轫犯涵轭薤超蹂沏
-structure       > sectioning > xiaojie @ level 4 : 0.10.1.1 -> （一）邙嵝鹰孓赣浸拯轫犯涵轭薤超蹂沏
+structures      > bookmark: （一） 鹜痣悍架臾娶髂堕铱悉柃逵酊滠踏
+structure       > sectioning > xiaojie @ level 4 : 0.10.1.1 -> （一）鹜痣悍架臾娶髂堕铱悉柃逵酊滠踏
 pages           > flushing realpage 213, userpage 203, subpage 213
-structures      > bookmark: （二） 函鹣鹱郴耩鬲翕另言啻蛎悟
-structure       > sectioning > xiaojie @ level 4 : 0.10.1.2 -> （二）函鹣鹱郴耩鬲翕另言啻蛎悟
+structures      > bookmark: （二） 踯邋厘秦菡邋瀵怡萁苔流砘
+structure       > sectioning > xiaojie @ level 4 : 0.10.1.2 -> （二）踯邋厘秦菡邋瀵怡萁苔流砘
 pages           > flushing realpage 214, userpage 204, subpage 214
+tex memory      > bumping category 'node' succeeded, details: all=180000000 | ini=0 | max=100000000 | mem=20000000 | min=2000000 | ptr=-12817 | set=50000000 | stp=500000 | top=19499997
 pages           > flushing realpage 215, userpage 205, subpage 215
-structures      > bookmark: （三） 湛求纾叮畴筏个鲦聊娌绪拭
-structure       > sectioning > xiaojie @ level 4 : 0.10.1.3 -> （三）湛求纾叮畴筏个鲦聊娌绪拭
-structures      > bookmark: 遑峄 ， 痘吸邴翥橥愧枘擤遏紫肝绻夜猥魑。
-structure       > sectioning > xiaoxiaojie @ level 5 : 0.10.1.3.1 -> 遑峄，痘吸邴翥橥愧枘擤遏紫肝绻夜猥魑。
-structures      > bookmark: 郅琪 ， 缑筱砷猴拗。
-structure       > sectioning > xiaoxiaojie @ level 5 : 0.10.1.3.2 -> 郅琪，缑筱砷猴拗。
+structures      > bookmark: （三） 澈线蠊裉嗅双岈璩鳃酸良宙
+structure       > sectioning > xiaojie @ level 4 : 0.10.1.3 -> （三）澈线蠊裉嗅双岈璩鳃酸良宙
+structures      > bookmark: 遁干 ， 眈狁人浒忏墚益岁蒉嶝家碲璋佟言。
+structure       > sectioning > xiaoxiaojie @ level 5 : 0.10.1.3.1 -> 遁干，眈狁人浒忏墚益岁蒉嶝家碲璋佟言。
+structures      > bookmark: 娑橙 ， 侨侗嗅诜煤。
+structure       > sectioning > xiaoxiaojie @ level 5 : 0.10.1.3.2 -> 娑橙，侨侗嗅诜煤。
 pages           > flushing realpage 216, userpage 206, subpage 216
-structures      > bookmark: 第三 ， 随脞倥蒹梭宗巩搅涮。
-structure       > sectioning > xiaoxiaojie @ level 5 : 0.10.1.3.3 -> 第三，随脞倥蒹梭宗巩搅涮。
-tex memory      > bumping category 'node' succeeded, details: all=180000000 | ini=0 | max=100000000 | mem=20000000 | min=2000000 | ptr=-12201 | set=50000000 | stp=500000 | top=19499988
+structures      > bookmark: 第三 ， 缬岳事崮揄鞯溺胥扭。
+structure       > sectioning > xiaoxiaojie @ level 5 : 0.10.1.3.3 -> 第三，缬岳事崮揄鞯溺胥扭。
 pages           > flushing realpage 217, userpage 207, subpage 217
-structures      > bookmark: 第四 ， 头岭璩含鲇阪耄锾目。
-structure       > sectioning > xiaoxiaojie @ level 5 : 0.10.1.3.4 -> 第四，头岭璩含鲇阪耄锾目。
-structures      > bookmark: 卅二、 倏涝丛锔卓佩蟠显芄
-structure       > sectioning > jie @ level 3 : 0.10.2 -> 卅二、倏涝丛锔卓佩蟠显芄
+structures      > bookmark: 第四 ， 茭逵美恪猜哺项鸱目。
+structure       > sectioning > xiaoxiaojie @ level 5 : 0.10.1.3.4 -> 第四，茭逵美恪猜哺项鸱目。
+structures      > bookmark: 卅二、 垣鼗琊貔吗绗枭蔬嘻
+structure       > sectioning > jie @ level 3 : 0.10.2 -> 卅二、垣鼗琊貔吗绗枭蔬嘻
 pages           > flushing realpage 218, userpage 208, subpage 218
 pages           > flushing realpage 219, userpage 209, subpage 219
-structures      > bookmark: 癖御 ， “绂鹨渎睫赈” 摒鲕孀 1978 淘瘩溉弗坞瞪个跨碣皈蝽翱鳄淼厩圜佾藕其吏娠硅。
-structure       > sectioning > xiaojie @ level 4 : 0.10.2.1 -> 癖御，“绂鹨渎睫赈”摒鲕孀1978淘瘩溉弗坞瞪个跨碣皈蝽翱鳄淼厩圜佾藕其吏娠硅。
+structures      > bookmark: 凉矸 ， “戡淤碟谄崎” 遐邮矽 1978 鳢鲻蛹莠圣棂踪拴彷杜槛哽醒肤淑挞鲂茴盔须杞岱。
+structure       > sectioning > xiaojie @ level 4 : 0.10.2.1 -> 凉矸，“戡淤碟谄崎”遐邮矽1978鳢鲻蛹莠圣棂踪拴彷杜槛哽醒肤淑挞鲂茴盔须杞岱。
+tex memory      > bumping category 'node' succeeded, details: all=184500000 | ini=0 | max=100000000 | mem=20500000 | min=2000000 | ptr=-12545 | set=50000000 | stp=500000 | top=19999987
 pages           > flushing realpage 220, userpage 210, subpage 220
-structures      > bookmark: 槠教 ， “祈夸皑庠贻” 晔秆笕晁按棂虹篥嗖靴瘭悌痒堂 ， 贸鼐拚脸狨碡帱凳抨 1979 堕呸喉漕丶焯。
-structure       > sectioning > xiaojie @ level 4 : 0.10.2.2 -> 槠教，“祈夸皑庠贻”晔秆笕晁按棂虹篥嗖靴瘭悌痒堂，贸鼐拚脸狨碡帱凳抨1979堕呸喉漕丶焯。
+structures      > bookmark: 莱梧 ， “次薤杩巫盹” 孰复赠靓纠假蹋吉满印屎男勤谎 ， 藕娣轹瀛碜券躐氯昊 1979 砥窈沼禁体韵。
+structure       > sectioning > xiaojie @ level 4 : 0.10.2.2 -> 莱梧，“次薤杩巫盹”孰复赠靓纠假蹋吉满印屎男勤谎，藕娣轹瀛碜券躐氯昊1979砥窈沼禁体韵。
 pages           > flushing realpage 221, userpage 211, subpage 221
-structures      > bookmark: 鳖寥 ， “衣娃禾幢誓” 途蝴汞篪 ， 服拘刍邛恐惹妄铕嗅尹厘熄墉禀倘一帻蜚琥鹂鹈骢麦嗓。
-structure       > sectioning > xiaojie @ level 4 : 0.10.2.3 -> 鳖寥，“衣娃禾幢誓”途蝴汞篪，服拘刍邛恐惹妄铕嗅尹厘熄墉禀倘一帻蜚琥鹂鹈骢麦嗓。
+structures      > bookmark: 性蝮 ， “夸捧臁多绉” 组狱氟又 ， 系矣贮僭钇倨想洽估虍坞脖墉怠械一化髁纠暖糌媲舫怅。
+structure       > sectioning > xiaojie @ level 4 : 0.10.2.3 -> 性蝮，“夸捧臁多绉”组狱氟又，系矣贮僭钇倨想洽估虍坞脖墉怠械一化髁纠暖糌媲舫怅。
 pages           > flushing realpage 222, userpage 212, subpage 222
-tex memory      > bumping category 'node' succeeded, details: all=184500000 | ini=0 | max=100000000 | mem=20500000 | min=2000000 | ptr=-13049 | set=50000000 | stp=500000 | top=19999998
 pages           > flushing realpage 223, userpage 213, subpage 223
 pages           > flushing realpage 224, userpage 214, subpage 224
-structures      > bookmark: 卅三、 延缙皓低躯鞫隍唬
-structure       > sectioning > jie @ level 3 : 0.10.3 -> 卅三、延缙皓低躯鞫隍唬
+structures      > bookmark: 卅三、 突脔屡诳撵跹蟠蓍
+structure       > sectioning > jie @ level 3 : 0.10.3 -> 卅三、突脔屡诳撵跹蟠蓍
+tex memory      > bumping category 'node' succeeded, details: all=189000000 | ini=0 | max=100000000 | mem=21000000 | min=2000000 | ptr=-12213 | set=50000000 | stp=500000 | top=20500000
 pages           > flushing realpage 225, userpage 215, subpage 225
-references      > unknown reference '[][厣遢逝华缤莘巡疣旗篮灞醇泞榱217]'
-references      > unknown reference '[][郁跑铴羼貘蔻髌嫌手逅砷莫谟剪217]'
-references      > unknown reference '[][凫抄芦店碳岛榜淋爸妾藓哟琅鸶217]'
 pages           > flushing realpage 226, userpage 216, subpage 226
-references      > unknown reference '[][龊屹芮丞萱脖喑獍仓寸邸俯籁栽217]'
-references      > unknown reference '[][葫诧赛锑胁谆烩黪倨亵蘑酢铽图217]'
 pages           > flushing realpage 227, userpage 217, subpage 227
-tex memory      > bumping category 'node' succeeded, details: all=189000000 | ini=0 | max=100000000 | mem=21000000 | min=2000000 | ptr=-13293 | set=50000000 | stp=500000 | top=20499989
 pages           > flushing realpage 228, userpage 218, subpage 228
 pages           > flushing realpage 229, userpage 219, subpage 229
+tex memory      > bumping category 'node' succeeded, details: all=193500000 | ini=0 | max=100000000 | mem=21500000 | min=2000000 | ptr=-12353 | set=50000000 | stp=500000 | top=20999998
 pages           > flushing realpage 230, userpage 220, subpage 230
 pages           > flushing realpage 231, userpage 221, subpage 231
-references      > unknown reference '[][仲挠鲒揭友古恶啜孢掉腱232]'
 pages           > flushing realpage 232, userpage 222, subpage 232
-references      > unknown reference '[][捌贼无戋薪筌重蜍耕级崎胸胲恃到223]'
-tex memory      > bumping category 'node' succeeded, details: all=193500000 | ini=0 | max=100000000 | mem=21500000 | min=2000000 | ptr=-12201 | set=50000000 | stp=500000 | top=20999987
 pages           > flushing realpage 233, userpage 223, subpage 233
 close source    > level 2, order 17, name 'chapter10.tex'
 open source     > level 2, order 18, name 'chapter11.tex'
 pages           > flushing realpage 234, userpage 224, subpage 234
-structures      > bookmark: 第十一章 荆瓣备孽惜荷苞呖儒吸
-structure       > sectioning > zhang @ level 2 : 0.11 -> 第十一章 \q 荆瓣备孽惜荷苞呖儒吸
-structures      > bookmark: 卅四、 怡旌蒹颜抟阔妆芬菹猩
-structure       > sectioning > jie @ level 3 : 0.11.1 -> 卅四、怡旌蒹颜抟阔妆芬菹猩
+structures      > bookmark: 第十一章 诱吧策怙钇郊纽哓阌肆
+structure       > sectioning > zhang @ level 2 : 0.11 -> 第十一章 \q 诱吧策怙钇郊纽哓阌肆
+structures      > bookmark: 卅四、 趴蚯靓筇亚勘颔百衡枕
+structure       > sectioning > jie @ level 3 : 0.11.1 -> 卅四、趴蚯靓筇亚勘颔百衡枕
+tex memory      > bumping category 'node' succeeded, details: all=198000000 | ini=0 | max=100000000 | mem=22000000 | min=2000000 | ptr=-12195 | set=50000000 | stp=500000 | top=21499968
 pages           > flushing realpage 235, userpage 225, subpage 235
-references      > unknown reference '[][痃狭毋芷渎茂癃镬券嗝迕被灏姝梨226]'
 pages           > flushing realpage 236, userpage 226, subpage 236
-references      > unknown reference '[][令珥椠你痧折筷牖铋醍鄯岖璃隼鲻227]'
-references      > unknown reference '[][脒羡恋粒决锃乜凫掩蓓铠暝念俚撖227]'
 pages           > flushing realpage 237, userpage 227, subpage 237
-tex memory      > bumping category 'node' succeeded, details: all=198000000 | ini=0 | max=100000000 | mem=22000000 | min=2000000 | ptr=-12205 | set=50000000 | stp=500000 | top=21499993
 pages           > flushing realpage 238, userpage 228, subpage 238
 pages           > flushing realpage 239, userpage 229, subpage 239
+tex memory      > bumping category 'node' succeeded, details: all=202500000 | ini=0 | max=100000000 | mem=22500000 | min=2000000 | ptr=-12213 | set=50000000 | stp=500000 | top=21999989
 pages           > flushing realpage 240, userpage 230, subpage 240
 pages           > flushing realpage 241, userpage 231, subpage 241
-structures      > bookmark: 卅五、 楦筚 《唪揩抖糌沐喑珠·恩苊恰寅》 糸
-structure       > sectioning > jie @ level 3 : 0.11.2 -> 卅五、楦筚《唪揩抖糌沐喑珠·恩苊恰寅》糸
-structures      > bookmark: 钴轶 ， 迨祈一绶砼芙 《铜橇舅涛匣闹僭》 纂摒丘阮酝。
-structure       > sectioning > xiaojie @ level 4 : 0.11.2.1 -> 钴轶，迨祈一绶砼芙《铜橇舅涛匣闹僭》纂摒丘阮酝。
+structures      > bookmark: 卅五、 妣郝 《缑澜曼蚪竣蝗睐·馨晋贻膈》 席
+structure       > sectioning > jie @ level 3 : 0.11.2 -> 卅五、妣郝《缑澜曼蚪竣蝗睐·馨晋贻膈》席
+structures      > bookmark: 棋乘 ， 鼻躔一忝酝蔫 《镜盍箬应嬷哭浯》 岖它羯棕庆。
+structure       > sectioning > xiaojie @ level 4 : 0.11.2.1 -> 棋乘，鼻躔一忝酝蔫《镜盍箬应嬷哭浯》岖它羯棕庆。
 pages           > flushing realpage 242, userpage 232, subpage 242
-structures      > bookmark: 蹁饨 ， 帑饥一慧嗷痣枵趔懦 《菊匾鲡笳骸价翅》 俐冼夙泖怙一乜恣黉蕾。
-structure       > sectioning > xiaojie @ level 4 : 0.11.2.2 -> 蹁饨，帑饥一慧嗷痣枵趔懦《菊匾鲡笳骸价翅》俐冼夙泖怙一乜恣黉蕾。
+structures      > bookmark: 咽刭 ， 嘭叵一陇噔扭熳遣胤 《洌夹吡馁腧軎憝》 唳贩畿踝迮一宛鹆裾媸。
+structure       > sectioning > xiaojie @ level 4 : 0.11.2.2 -> 咽刭，嘭叵一陇噔扭熳遣胤《洌夹吡馁腧軎憝》唳贩畿踝迮一宛鹆裾媸。
 pages           > flushing realpage 243, userpage 233, subpage 243
-structures      > bookmark: 羔蒹 ， 永蹬一奈乃亡皱楹蟓肴銎戋鞘 《邮胧踅眦坠窨昆·裉轸帖榻》 蛮泅孰辜俚波坡椤。
-structure       > sectioning > xiaojie @ level 4 : 0.11.2.3 -> 羔蒹，永蹬一奈乃亡皱楹蟓肴銎戋鞘《邮胧踅眦坠窨昆·裉轸帖榻》蛮泅孰辜俚波坡椤。
-tex memory      > bumping category 'node' succeeded, details: all=202500000 | ini=0 | max=100000000 | mem=22500000 | min=2000000 | ptr=-12203 | set=50000000 | stp=500000 | top=21999998
+structures      > bookmark: 翘瘙 ， 幡僵一汩铒鲆藤爆却腼蚣悃菏 《鸵替双韬凭疴荛·蠹鹇铠刭》 蛩铄钬莠掸犬玩超。
+structure       > sectioning > xiaojie @ level 4 : 0.11.2.3 -> 翘瘙，幡僵一汩铒鲆藤爆却腼蚣悃菏《鸵替双韬凭疴荛·蠹鹇铠刭》蛩铄钬莠掸犬玩超。
 pages           > flushing realpage 244, userpage 234, subpage 244
-references      > unknown reference '[][炼乎熳捞唆佚舌鬏撙规负邰嫦鳎肉芤晴100翊不235]'
+tex memory      > bumping category 'node' succeeded, details: all=207000000 | ini=0 | max=100000000 | mem=23000000 | min=2000000 | ptr=-12201 | set=50000000 | stp=500000 | top=22499995
 pages           > flushing realpage 245, userpage 235, subpage 245
 pages           > flushing realpage 246, userpage 236, subpage 246
 pages           > flushing realpage 247, userpage 237, subpage 247
-structures      > bookmark: 卅六、 涌敬猢汩彐守式
-structure       > sectioning > jie @ level 3 : 0.11.3 -> 卅六、涌敬猢汩彐守式
-structures      > bookmark: （一） 搠烃知罐 ， 陪尉詹爵嗍令裼曛颓诿、 螬蜉燎松斓
-structure       > sectioning > xiaojie @ level 4 : 0.11.3.1 -> （一）搠烃知罐，陪尉詹爵嗍令裼曛颓诿、螬蜉燎松斓
+structures      > bookmark: 卅六、 蹯涎雳羞竞版粉
+structure       > sectioning > jie @ level 3 : 0.11.3 -> 卅六、蹯涎雳羞竞版粉
 pages           > flushing realpage 248, userpage 238, subpage 248
-tex memory      > bumping category 'node' succeeded, details: all=207000000 | ini=0 | max=100000000 | mem=23000000 | min=2000000 | ptr=-12209 | set=50000000 | stp=500000 | top=22499997
+structures      > bookmark: （一） 茼埯蓉祷 ， 髋化肢骨瑛逅啼汰挟补、 辅锍迫鲰余
+structure       > sectioning > xiaojie @ level 4 : 0.11.3.1 -> （一）茼埯蓉祷，髋化肢骨瑛逅啼汰挟补、辅锍迫鲰余
 pages           > flushing realpage 249, userpage 239, subpage 249
 pages           > flushing realpage 250, userpage 240, subpage 250
-structures      > bookmark: （二） 瓜工静瘦一铪 ， 膻圬锿堂安芷尜宪坯缱浞垒孝议
-structure       > sectioning > xiaojie @ level 4 : 0.11.3.2 -> （二）瓜工静瘦一铪， 膻圬锿堂安芷尜宪坯缱浞垒孝议
+structures      > bookmark: （二） 刘煮舢篝一狍 ， 刘摅怂朔庸鸺牮版夕诫入胧挟铯
+structure       > sectioning > xiaojie @ level 4 : 0.11.3.2 -> （二）刘煮舢篝一狍， 刘摅怂朔庸鸺牮版夕诫入胧挟铯
+tex memory      > bumping category 'node' succeeded, details: all=211500000 | ini=0 | max=100000000 | mem=23500000 | min=2000000 | ptr=-12193 | set=50000000 | stp=500000 | top=22999999
 pages           > flushing realpage 251, userpage 241, subpage 251
 pages           > flushing realpage 252, userpage 242, subpage 252
-structures      > bookmark: （三） 疲蕲雯倜 ， 萦踪阉移冗鸸僦垢厝秃
-structure       > sectioning > xiaojie @ level 4 : 0.11.3.3 -> （三）疲蕲雯倜，萦踪阉移冗鸸僦垢厝秃
+structures      > bookmark: （三） 堰衿腴殓 ， 涡鼻咽肥蟒刻屮湃攥骏
+structure       > sectioning > xiaojie @ level 4 : 0.11.3.3 -> （三）堰衿腴殓，涡鼻咽肥蟒刻屮湃攥骏
 pages           > flushing realpage 253, userpage 243, subpage 253
 close source    > level 2, order 18, name 'chapter11.tex'
 structures      > end of sectionblock 'bodypart'
 pages           > flushing realpage 254, userpage 244, subpage 254
 structures      > begin of sectionblock 'appendix'
 open source     > level 2, order 19, name 'chapter99.tex'
-structure       > sectioning > zhang @ level 2 : 0.1 -> 骐患撇殇
-tex memory      > bumping category 'node' succeeded, details: all=211500000 | ini=0 | max=100000000 | mem=23500000 | min=2000000 | ptr=-12245 | set=50000000 | stp=500000 | top=22999988
+structure       > sectioning > zhang @ level 2 : 0.1 -> 事缪莆刎
 pages           > flushing realpage 255, userpage 245, subpage 255
+tex memory      > bumping category 'node' succeeded, details: all=216000000 | ini=0 | max=100000000 | mem=24000000 | min=2000000 | ptr=-12354 | set=50000000 | stp=500000 | top=23499998
 pages           > flushing realpage 256, userpage 246, subpage 256
 close source    > level 2, order 19, name 'chapter99.tex'
 open source     > level 2, order 20, name 'chapter-b.tex'
@@ -628,15 +589,15 @@ pages           > flushing realpage 257, userpage 247, subpage 257
 pages           > flushing realpage 258, userpage 248, subpage 258
 structure       > sectioning > zhang @ level 2 : 0.2 -> 跋
 pages           > flushing realpage 259, userpage 249, subpage 259
-structures      > bookmark: 一妥 ， “蚧灏” 钰跄偻 ， 胼瞬妪篝镀贶业底蓑 “筹磬” 亩红骟暑灯向擤抚谂 ， 榔脶俱剥琚。
-structure       > sectioning > xiaojie @ level 4 : 0.2.0.1 -> 一妥，“蚧灏”钰跄偻，胼瞬妪篝镀贶业底蓑“筹磬”亩红骟暑灯向擤抚谂，榔脶俱剥琚。
-structures      > bookmark: 一芬 ， “玳冉” 狗芏弧 ， 镓殆、 淡谳颂舐 “摧泔” 谱墨剑缄岖噪璁 ， 煤莶膝镭酝。
-structure       > sectioning > xiaojie @ level 4 : 0.2.0.2 -> 一芬，“玳冉”狗芏弧，镓殆、淡谳颂舐“摧泔”谱墨剑缄岖噪璁，煤莶膝镭酝。
-tex memory      > bumping category 'node' succeeded, details: all=216000000 | ini=0 | max=100000000 | mem=24000000 | min=2000000 | ptr=-12286 | set=50000000 | stp=500000 | top=23499995
+structures      > bookmark: 一小 ， “骓袅” 豳蹉桫 ， 赭佴缉腾雩鍪烯午埒 “髻狳” 鳋萜僖租院吮豁漱忐 ， 胗鲢捍劫葡。
+structure       > sectioning > xiaojie @ level 4 : 0.2.0.1 -> 一小，“骓袅”豳蹉桫，赭佴缉腾雩鍪烯午埒“髻狳”鳋萜僖租院吮豁漱忐，胗鲢捍劫葡。
+structures      > bookmark: 一割 ， “锋私” 坂铭胳 ， 苫炊、 滞决祓鬯 “说这” 蹂嘬餍鲽屁喷蹇 ， 捍匀濒悔佛。
+structure       > sectioning > xiaojie @ level 4 : 0.2.0.2 -> 一割，“锋私”坂铭胳，苫炊、滞决祓鬯“说这”蹂嘬餍鲽屁喷蹇，捍匀濒悔佛。
 pages           > flushing realpage 260, userpage 250, subpage 260
-structures      > bookmark: 一驻 ， “怕氍” 笈值王 ， 捐徨骤柬矽舛涡阆、 爆踵、 叶畲、 埃砷阉 ， 嵩沫脐氅淘铈哏 ， 澄冁仅她宪。
-structure       > sectioning > xiaojie @ level 4 : 0.2.0.3 -> 一驻，“怕氍”笈值王，捐徨骤柬矽舛涡阆、爆踵、叶畲、埃砷阉，嵩沫脐氅淘铈哏，澄冁仅她宪。
+structures      > bookmark: 一撞 ， “宗墙” 般馋酥 ， 羽垸浅冕孤樾敲攥、 劈珐、 聊鸲、 竦谴萸 ， 迦戌钢笠陴那玻 ， 持虿谨寂肃。
+structure       > sectioning > xiaojie @ level 4 : 0.2.0.3 -> 一撞，“宗墙”般馋酥，羽垸浅冕孤樾敲攥、劈珐、聊鸲、竦谴萸，迦戌钢笠陴那玻，持虿谨寂肃。
 pages           > flushing realpage 261, userpage 251, subpage 261
+tex memory      > bumping category 'node' succeeded, details: all=220500000 | ini=0 | max=100000000 | mem=24500000 | min=2000000 | ptr=-13306 | set=50000000 | stp=500000 | top=23999987
 pages           > flushing realpage 262, userpage 252, subpage 262
 pages           > flushing realpage 263, userpage 253, subpage 263
 close source    > level 2, order 20, name 'chapter-b.tex'
@@ -736,48 +697,8 @@ modules         >   loaded : *-s-layout-show
 modules         >   loaded : *-zhpunc
 modules         > stop used modules
 references      > start missing references
-references      >    2  [][且蜉噬郓攘泵愠轳肼觞布拦赶咋腈夼190]
-references      >    2  [][令珥椠你痧折筷牖铋醍鄯岖璃隼鲻227]
-references      >    2  [][仲挠鲒揭友古恶啜孢掉腱232]
-references      >    2  [][凫抄芦店碳岛榜淋爸妾藓哟琅鸶217]
-references      >    2  [][厣遢逝华缤莘巡疣旗篮灞醇泞榱217]
-references      >    2  [][品菘乌壬蚋衩琪槎尊怍滇96]
-references      >    2  [][啥痒揠噪泾唪驱窿顺蟑哿囚137]
-references      >    2  [][坂烯埋麇弟雾件面喔番幡茇朋可水镲191]
-references      >    2  [][埘狎葶樱笸菀鼯铱缉麾祯鸣鬻擒获俑191]
-references      >    2  [][妄建鞘郊浈毹岵法综犴拖祖刂滚汰锛宦嫒酏巧集42]
-references      >    2  [][帚焦眢憝膳嫂兜湓翕契玄波躔嗣觋俨192]
-references      >    2  [][御勘磷旨硇宵194]
-references      >    2  [][捌贼无戋薪筌重蜍耕级崎胸胲恃到223]
-references      >    2  [][杂慝砭扌涓莓登蒲辎郄卜豢羯攀娣荜191]
-references      >    2  [][杌媒舻僦舱嫦194]
-references      >    2  [][涞巅逅赣乞蒂詹炱蛸呕歹缴饕娜纣戤190]
-references      >    2  [][溅昃纠企作榆璋腆偏佻陛冈鹣69]
-references      >    2  [][滇弟蜣橡怯矧鸡麓嗖睢耋肷湓扑蜀晡192]
-references      >    2  [][澧譬盗砷艇飓团衲肯鎏杖膝褴擀吞餐188]
-references      >    2  [][炼乎熳捞唆佚舌鬏撙规负邰嫦鳎肉芤晴100翊不235]
-references      >    2  [][甄鹅眍丘鸠酷聱宁泱怄33]
-references      >    2  [][痃狭毋芷渎茂癃镬券嗝迕被灏姝梨226]
-references      >    2  [][瞌脖栖魏趣剖牦镭骁胩珂魉岑巳芒彪188]
-references      >    2  [][瞪课肜悯踊霞诶蛞逾友筌敝57]
-references      >    2  [][砝拼舀裔丧蹇睐礼礼汾析食189]
-references      >    2  [][碇装楚锞鸡黎统绠霪讠孱祯搐69]
-references      >    2  [][缩锴哈翼砟圈浩嚆肘钱刨侈199]
-references      >    2  [][翅扈吮瘅哙疔泼逗咱腼蛮骱谳睢猁腊190]
-references      >    2  [][脒羡恋粒决锃乜凫掩蓓铠暝念俚撖227]
-references      >    2  [][葫诧赛锑胁谆烩黪倨亵蘑酢铽图217]
-references      >    2  [][蛴概淑觜椐游赀匈账谑逍祝137]
-references      >    2  [][衲冥避氦惑猗浍埕疚昴茌求坳遄街脶191]
-references      >    2  [][謇苞纷抱面钉怫茨艉鲍届疠鞔赤琴锱189]
-references      >    2  [][负凭泥睦邢窠每散臾蹰鹋掖悫帚捃疖190]
-references      >    2  [][踩苟稳骱槎舜吁味瞰防品妗岷枘笏淦192]
-references      >    2  [][郁跑铴羼貘蔻髌嫌手逅砷莫谟剪217]
-references      >    2  [][钓葵躐忘哜眄锸恻卿遁蕺适藕蝣标殒190]
-references      >    2  [][阑撅鹄虼林驷登笼冕揭貅锕娉颊杌磋187]
-references      >    2  [][颌仕掌鲢弈吾194]
-references      >    2  [][饽涟弯乙墟箕换本滂25]
-references      >    2  [][麝璁胀瑷瑭嘧垫掇厅幼搿尜莹汶胬挹191]
-references      >    2  [][龊屹芮丞萱脖喑獍仓寸邸俯籁栽217]
+references      >    2  [][匣剃唉颔镀槛枉杏夜乎泪萋跪69]
+references      >    2  [][沂调或绥范镟荦筋薏雉琚切逯69]
 references      > stop missing references
 system          > 
 system          > status after finishing run
@@ -790,29 +711,29 @@ system          >   min     150000   10000000     150000     150000    2000000  
 system          >   set     500000   10000000     250000     250000   50000000   10000000   10000000     100000       2000      10000     100000     500000     100000        250        250        250
 system          >   stp     100000    1000000     100000     100000     500000     500000    1000000      10000        250       1000      10000      10000        250        250         50         25
 system          > 
-system          >   mem     150000    1053440     150000              24000000    2000000    1000000      10000        500       1000      20000      10000  136662240        144       1200        320
-system          >   all    2400000    1053440    2400000             216000000   16000000    1000000     320000      16000      80000      80000     160000  136662240        144      28800      10240
+system          >   mem     150000    1053467     150000              24500000    2000000    1000000      10000        500       1000      20000      10000  145117136        144       1200        320
+system          >   all    2400000    1053467    2400000             220500000   16000000    1000000     320000      16000      80000      80000     160000  145117136        144      28800      10240
 system          > 
 system          >   ini    2147668     963364          0      50499          0     557271                                                                                       0                      
-system          >   ptr      54112                  7944      54095                                0          0          0          0          0          3         85          0         28          9
-system          >   top      54113                938189     262146   23849316     623416       1653         56         10         19         50        723        250        250         50         10
+system          >   ptr      54113                  7944      54096                                0          0          0          0          0          3         87          0         28          9
+system          >   top      54114                938189     262146   24221769     623416       1653         56         10         19         50        723        250        250         50         10
 system          >   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 system          > 
 system          >   current input type    : initial
 system          > 
-system          >   approximate memory    : 407181816 (388 MB)
+system          >   approximate memory    : 421924643 (402 MB)
 system          > 
 system          >   expansion depth       : min: 10000, max: 1000000, set: 10000, top: 10
 system          > 
 system          >   luabytecode registers : 1025
 system          >   luabytecode bytes     : 16416 (0 MB)
-system          >   luastate bytes now    : 1207297733 (1151 MB)
-system          >   luastate bytes max    : 1207297733 (1151 MB)
+system          >   luastate bytes now    : 1261008813 (1202 MB)
+system          >   luastate bytes max    : 1261008813 (1202 MB)
 system          > 
-system          >   file callbacks        : 10283
-system          >   saved callbacks       : 94117
+system          >   file callbacks        : 10461
+system          >   saved callbacks       : 94690
 system          >   direct callbacks      : 14
-system          >   function callbacks    : 32211
+system          >   function callbacks    : 32435
 system          >   value callbacks       : 936
 system          >   message callbacks     : 0
 system          >   bytecode callbacks    : 631
@@ -824,7 +745,7 @@ system          >   mp text callbacks     : 0
 system          >   mp script callbacks   : 802
 system          >   mp log callbacks      : 35
 system          > 
-system          >   total callbacks       : 138192
+system          >   total callbacks       : 139167
 system          >   mp total callbacks    : 29907
 system          >   backend callbacks     : 0
 system          > 
@@ -843,35 +764,35 @@ system          >
 mkiv lua stats  > used config file: selfautoparent:/texmf/web2c/texmfcnf.lua
 mkiv lua stats  > used cache path: D:/venvs/context-win64/tex/texmf-cache/luametatex-cache/context/5fe67e0bfe781ce0dde776fb1556f32e
 mkiv lua stats  > resource resolver: loadtime 0.004 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 69 found files, scanned paths: <none>
-mkiv lua stats  > stored bytecode data: 525 modules (0.133 sec), 106 tables (0.007 sec), 631 chunks (0.140 sec)
+mkiv lua stats  > stored bytecode data: 525 modules (0.154 sec), 106 tables (0.010 sec), 631 chunks (0.164 sec)
 mkiv lua stats  > traced context: maxstack: 1797, freed: 2, unreachable: 1795
 mkiv lua stats  > cleaned up reserved nodes: 79 nodes, 8 lists of 439
-mkiv lua stats  > node memory usage: 8902 attribute, 17674 boundary, 4572 dir, 1144884 glue, 116414 gluespec, 870405 glyph, 49876 hlist, 216384 kern, 655 mathspec, 14535 par, 143043 penalty, 14175 rule, 44009 specification, 2 temp, 8164 vlist, 1898 whatsit
-mkiv lua stats  > node list callback tasks: 16 unique task lists, 16 instances (re)created, 44103 calls
-mkiv lua stats  > h-node processing time: 0.176 seconds including kernel
-mkiv lua stats  > attribute processing time: 0.042 seconds front- and backend
-mkiv lua stats  > driver time: 0.458 seconds 
+mkiv lua stats  > node memory usage: 9062 attribute, 17674 boundary, 4572 dir, 1160183 glue, 116414 gluespec, 888379 glyph, 49993 hlist, 217280 kern, 655 mathspec, 14535 par, 145254 penalty, 14175 rule, 44009 specification, 2 temp, 8164 vlist, 1898 whatsit
+mkiv lua stats  > node list callback tasks: 16 unique task lists, 16 instances (re)created, 44142 calls
+mkiv lua stats  > h-node processing time: 0.169 seconds including kernel
+mkiv lua stats  > attribute processing time: 0.041 seconds front- and backend
+mkiv lua stats  > driver time: 0.449 seconds 
 mkiv lua stats  > used backend: pdf
-mkiv lua stats  > jobdata time: 0.016 seconds saving, 0.005 seconds loading
-mkiv lua stats  > callbacks: file: 10283, saved: 94117, direct: 14, function: 32211, value: 936, message: 0, bytecode: 631, late 0, total: 138192 (523 per page)
+mkiv lua stats  > jobdata time: 0.018 seconds saving, 0.004 seconds loading
+mkiv lua stats  > callbacks: file: 10461, saved: 94690, direct: 14, function: 32435, value: 936, message: 0, bytecode: 631, late 0, total: 139167 (527 per page)
 mkiv lua stats  > randomizer: resumed with value 0.54233705624013329
-mkiv lua stats  > v-node processing time: 0.048 seconds 
+mkiv lua stats  > v-node processing time: 0.044 seconds 
 mkiv lua stats  > loaded tex modules: 2 requested, all found (*-s-layout-show *-zhpunc)
 mkiv lua stats  > loaded patterns: cn::58 en::1, load time: 0.000
-mkiv lua stats  > interactive elements: 416 references, 472 destinations
+mkiv lua stats  > interactive elements: 456 references, 472 destinations
 mkiv lua stats  > loaded fonts: 13 files: notosanscjksc-light.otf, notosanscjksc-regular.otf, notoserif-italic.ttf, notoserifcjksc-bold.otf, notoserifcjksc-medium.otf, notoserifcjksc-regular.otf, stfangso.ttf, stkaiti.ttf, fzfsjw.ttf, fzktjw.ttf, latinmodernmathcompanion-regular.otf, latinmodern-math.otf, dejavusansmono.ttf
-mkiv lua stats  > font engine: otf 3.144, afm 1.541, tfm 1.000, 69 instances, 54 shared in backend, 4 common vectors, 50 common hashes, load time 1.990 seconds 
+mkiv lua stats  > font engine: otf 3.144, afm 1.541, tfm 1.000, 71 instances, 56 shared in backend, 4 common vectors, 52 common hashes, load time 1.949 seconds 
 mkiv lua stats  > body font sizes: defined: 10pt 11pt 12pt 14.4pt 17.3pt 20.7pt 4pt 5pt 6pt 7pt 8pt 9pt, undefined: 10.5pt 8.4pt
-mkiv lua stats  > metapost: 0.002 seconds, loading: 0.052, execution: 0.002, n: 5, average: 0.011, instances: 2, luacalls: 29907 (file: 29070, text: 0, script: 802, log: 35), memory: 8.296 M
-mkiv lua stats  > math tweaking time: 0.097 seconds, 36 math goodie tables
-mkiv lua stats  > graphics processing time: 0.006 seconds including tex, 6 processed images, 6 unique asked, 0 bad names
-mkiv lua stats  > pdf annotations: 416 links (416 unique), 0 special
-mkiv lua stats  > font embedding time: 0.445 seconds, 7 fonts
+mkiv lua stats  > metapost: 0.002 seconds, loading: 0.046, execution: 0.002, n: 5, average: 0.010, instances: 2, luacalls: 29907 (file: 29070, text: 0, script: 802, log: 35), memory: 8.296 M
+mkiv lua stats  > math tweaking time: 0.094 seconds, 36 math goodie tables
+mkiv lua stats  > graphics processing time: 0.007 seconds including tex, 6 processed images, 6 unique asked, 6 bad names
+mkiv lua stats  > pdf annotations: 456 links (451 unique), 0 special
+mkiv lua stats  > font embedding time: 0.430 seconds, 7 fonts
 mkiv lua stats  > result saved in file: d:/ah21/ConTeXt-template-for-academic-biography/ConTeXt-template-for-academic-biography.pdf, compresslevel 1, objectcompresslevel 3, 287 streams, 0 uncompressed, 278 compressed, 9 not compressed, threshold 40
 mkiv lua stats  > positions: 4 collected, 0 deltas, 0 shared partials, 0 partial entries
-mkiv lua stats  > cross referencing: 500 identified, 42 unknown
+mkiv lua stats  > cross referencing: 500 identified, 2 unknown
 mkiv lua stats  > used platform: win64, type: windows, binary subtree: texmf-win64
 mkiv lua stats  > used engine: luametatex version: 2.11.06, functionality level: 20241101, format id: 711, compiler: gcc
-mkiv lua stats  > tex properties: 938189 hash slots used of 2097152, 54095 control sequences, approximate memory usage: 388 MB
-mkiv lua stats  > lua properties: engine: lua 5.5, format 2, used memory: 1181 MB, ctx: 1151 MB, max: 1151 MB, symbol mask: utf (τεχ)
-mkiv lua stats  > runtime: 9.779 seconds, 264 processed pages, 264 shipped pages, 26.997 pages/second
+mkiv lua stats  > tex properties: 938189 hash slots used of 2097152, 54096 control sequences, approximate memory usage: 402 MB
+mkiv lua stats  > lua properties: engine: lua 5.5, format 2, used memory: 1232 MB, ctx: 1202 MB, max: 1202 MB, symbol mask: utf (τεχ)
+mkiv lua stats  > runtime: 9.440 seconds, 264 processed pages, 264 shipped pages, 27.966 pages/second
