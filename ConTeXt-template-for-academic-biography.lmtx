@@ -1,0 +1,82 @@
+%%%搜索文件的路径
+\usepath[./envs/]
+\usepath[./img/]
+\setupexternalfigures[location={local,default}]
+%%%%配置和宏环境
+\environment[env_setting.tex]
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 默认开启的信息
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 缺字体时替换为方框标记
+% ！！！使用后备字后版面不一定能显示排版占位标记（！！！对后备字体可能失效）
+% ！！！务必检查log标记： missing (replaced)
+\replacemissingcharacters
+% ！！！务必检查log，有无重复引用redundant reference
+
+
+%%%%% 显式视觉调试信息 %%%%
+% 关闭校对模式
+% ！！！务必检查PDF中的校对标记： ？？
+\disablemode[proofread]
+
+
+% \showboxes%盒子
+% \showglyphs%字模轮廓
+% \showframe%框架
+    % \showframe[text]
+% \showmakeup%额外信息
+% \showreferences
+% \tracingnodes1 %1,2
+
+
+\startproduct book
+    \startmakeup[standard][page=odd,doublesided=no]
+        \startalignment[middle]
+        {\bfd 荵蒵鋁脠}
+
+        匪孅扡 \q 擩
+
+        \vskip30em
+
+        迿蔳緡廊伄
+
+        · 紫蕟 ·
+        \stopalignment
+    \stopmakeup
+    \startmakeup[text][page=even,doublesided=no]
+        {\bf 版权页占位}
+        {\tfx \showsetups}% 显示版面布局的尺寸
+    \stopmakeup
+    % 文前
+    \startfrontmatter[page=rightblankpage]
+        \component[chapter-a.tex]
+        \chapter{目录}%不像\zhang上目录，但能在页眉显示
+        \placecontent[criterium=all]% all previous local text
+    \stopfrontmatter
+    % 正文
+    \startbodymatter[page=rightblankpage]
+        \component[chapter1.tex]
+        \component[chapter2.tex]
+        \component[chapter3.tex]
+        \component[chapter4.tex]
+        \component[chapter5.tex]
+        \component[chapter6.tex]
+        \component[chapter7.tex]
+        \component[chapter8.tex]
+        \component[chapter9.tex]
+        \component[chapter10.tex]
+        \component[chapter11.tex]
+    \stopbodymatter
+    \startappendices[page=rightblankpage]
+        \begingroup
+        % \tx
+        \setupinterlinespace[line=1.6em]
+        \component[chapter99.tex]
+        % \setupinterlinespace[reset]%组外无效
+        \endgroup
+        \component[chapter-b.tex]
+    \stopappendices
+\stopproduct
+

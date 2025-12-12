@@ -1,0 +1,511 @@
+%%%% 全局配置
+\startenvironment % 与第一行代码间必须有空行 BUG
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 模式
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 校对模式，yes no keep(保持预先设置，其后调整无效，可在命令行设置)
+\definemode[proofread][keep]
+\enablemode[proofread]
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 设置变量 TODO
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setvariables[settings][%
+    % 如果紧跟在startenvironment后，上行末尾需要注释，
+    % 且注释前不能有空格，否则会引入空白页
+    smallblank=quarterline,% 板块间的最小间距
+    bodyfont=10.5pt,%正文字号 A5a类21—16，b类14，c类12，d类10.5
+    width_em=36, %一行字数
+    interlinespace=1.94em,
+]
+\def\smallblank{\blank[\getvariable{settings}{smallblank}]}
+% 此处samepage在某些地方不起效，而在当地手动加则有效 TODO
+\def\smallblanksamepage{\blank[\getvariable{settings}{smallblank},samepage]}
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 纸张、版面、页码、书眉
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\definepapersize[mypaper][width=185 mm,height=260 mm]%成品185*260，出血36mm
+\setuppapersize[mypaper][mypaper,oversized] % A4版面，A4纸+oversized(1.5cm)打印（扩展以便看到裁切线）
+\definemeasure[Bleed][3mm]%出血
+\definemeasure[Trim][7.5mm]%剪裁线偏置等于 oversized
+\setuplayout[%
+    backspace=30mm,% 内侧空白
+    % 版心width，排中文时要取正文字号的整数倍，即`每行字数*字号`
+    % A4正常可用width约160mm，约合14pt*33字*0.35146mm/pt=162.4mm
+    % A5a类106*168，b类108*167，c类106*164，d类107*166
+    % width={\dimexpr\getvariable{settings}{bodyfont}*\getvariable{settings}{width_em}\relax},
+    % 或直取M宽/方空铅的整数倍，即`每行字数em`（与上法有极小的差别，与字体有关）
+    % A5a类19*20，b类22*22，c类25*25，d类29*28
+    width=\getvariable{settings}{width_em}em,
+    leftmargin=0em,
+    rightmargin=0em,%4em
+    topspace=15mm,
+    height=230mm,%A4 250
+        header=7.5mm,
+        footer=7.5mm,%7.5mm
+    marking=empty, % empty 仅裁切线；on 裁切线+页码（混色黑）；裁切线、页码以及其他信息(如作业名称、日期时间等)
+    location=middle, % 居中放置在纸张上
+    bleedoffset=\measure{Bleed},
+    trimoffset=-\measure{Trim},
+]
+% 页码
+% ！！！alternative=doublesided指定对页交替
+% （一般setup­layout设置默认指奇数页，对页交替使偶数页采用奇数页的镜像值）
+\setuppagenumbering[alternative=doublesided,location={footer,right}, state=start]
+\setupuserpagenumber[alternative=doublesided,location={footer,right}]
+% 文前用小写罗马字
+\definestructureconversionset [frontpart:pagenumber][][r]
+\definestructureconversionset [bodypart:pagenumber][][n]
+\startsectionblockenvironment [bodypart]
+    \setcounter[userpage][1]%重排正文页码
+\stopsectionblockenvironment
+
+% 书眉
+\setupheadertexts
+    []%单码右侧{- \hskip0em \userpagenumber \hskip0.25em -}
+    [{\ttx\getmarking[jie]}]%单码左侧
+    [{\ttx\getmarking[zhang]}]%双码右侧
+    []%双码左侧{- \hskip0em \userpagenumber \hskip0.25em -}
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 中文配置
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\mainlanguage[cn]
+\language[cn]
+\setscript[hanzi] % 汉字处理脚本（断行等）
+\setupalign[hanging,hz] %行末标点悬挂
+
+% 边沿margin/edge文本
+\setupmargindata[style={\hwx\setupinterlinespace[line=1em]\setscript[hanzi]}]
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 字体和符号配置
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 字体配置
+\environment[notoplus.tex]
+\setupbodyfont   [notoplus,rm,\getvariable{settings}{bodyfont}]
+% \environment[notoplus.tex]
+% \setupbodyfont   [notoplus,rm,\getvariable{settings}{bodyfont}]
+% \usetypescriptfile[mscore]
+% \setupbodyfont   [mschinese-light,\getvariable{settings}{bodyfont}]
+
+% 注释设置，支持中文断行
+\startsetups[footnote:hanzi]
+    \setscript[hanzi]
+    \setupinterlinespace[line=1.5em]
+\stopsetups
+
+\def\bracketednumber#1{[#1]}
+\def\bracketednumberup#1{\high{\bracketednumber{#1}}}
+% 配置注释环境(note environment)的格式,包括正文中的注释标记和注释文本所在的容器
+\setupnote[footnote][%
+    setups={footnote:hanzi},
+    textcommand=\bracketednumberup,
+    ]
+%  配置注释内容(note insert)的格式,即注释文本本身的样式
+\setupnotation[footnote][%
+    % way=bypage,%按页计数
+    numbercommand=\bracketednumberup,%或通过left right
+]
+
+\def\basefootnote[#1][#2]{\footnote{\getbuffer[#1]\unskip:#2.}}
+\def\firstfootnote[#1][#2][#3]{\footnote[#1]{\getbuffer[#2]\unskip:#3.}}
+\def\tofirstfootnote[#1][#2]{\footnote{同[\in{}{}[#1]]#2.}}
+
+% 第一版
+% % 同某页注[索引][页码] TODO 判断同页、后页
+% \def\sameasfootnote[#1][#2]{%
+%     % {\footnote{同\at[#1]页[\in{}{}[#1]]#2.}}%
+%     {\high{同\at[#1]页[\in{}{}[#1]]#2.}}%
+%     }
+% 同某页注[索引][页码] TODO 判断同页、后页
+\def\sameasfootnote[#1][#2]{\basefootnote[#1][#2]}
+
+% 定义画勾画叉符号及字体
+\definefont[checkMarkFont][name:dejavusansmono*default]
+\define\TrueMark{{\checkMarkFont ✔}}
+\define\FalseMark{{\checkMarkFont ✗}}
+% 着重号 TODO 居中
+\definebar[zhuozhong][text=\lower0.4em\hbox{\hskip0.45em .}, repeat=no]
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 设置颜色
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setupcolors[
+  state=start,
+  rgb=no,
+  cmyk=no,%
+  spot=no
+]
+\definecolor[cmykblack][k=1] % 纯黑色,只使用K通道
+\setupcolors[textcolor=cmykblack] % 将文本默认颜色设为纯黑
+
+% !!!如果不设置透明度，用于下画线时，字色透明度会覆盖下画线的透明度
+\definecolor[secondColor]     [c=1,t=1,a=1] % 第二色（青色）
+\definecolor[lightSecondColor][c=0.4,t=0.8,a=1] % 浅二色（青色）
+\definecolor[aboveColor]      [c=1,t=0.8,a=1] % 上层色（80%透明的青色）
+\definecolor[lightAboveColor] [c=0.4,t=0.8,a=1] % 上层色（80%透明的青色）
+\definecolor[proofColor]      [m=1,t=0.8,a=1] % 校对文本色（80%透明的品色）
+\definecolor[lightProofColor] [m=0.4,t=0.8,a=1] % 校对文本色（80%透明的品色）
+\definecolor[transparentColor][k=0,t=0,a=1] % 透明色（就地隐藏文本用）
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 结构编号转换集合（各级标题编号的呈现方式）
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \definecounter[subsubsectioncounter][way=bysection] % 每section重起
+% \defineconversion[cnbysection][\convertnumber{cn}{\rawcountervalue[subsubsectioncounter]}]
+\definestructureconversionset[cnconversion]
+    [R,  % part                部分，大写罗马数字
+    cn,  % chapter             章/单元 中文数字
+    ,    % section             节/课文标题
+    ,    % subsection          小节/分组标题 
+    cn,  % subsubsection       大题 中文数字
+    n,   % subsubsubsection    小题 印度数码
+    n,]   % subsubsubsubsection 小小题 印度数码
+    [r] % Default setting 小写罗马字
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 设置标题
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 统一设置（个别标题后面可单独重设）
+% \defineresetset[myresetset][1,1,1,1,0][1] %关闭第3级标题的序号重置
+% \defineresetset[subsubsectionresetset][][0] %关闭，用于单个标题的设置
+\setupheads
+    [part,chapter,section,subsection,subsubsection,subsubsubsection]
+    [%
+    % after=, % 覆盖其后插入的空
+    sectionconversionset=cnconversion,%不要混入空格
+    number=no, % 不显示序号
+    indentnext=yes, % 其后首行缩进
+    sectionsegments=current, % 序号段：只包括当前序号
+    % sectionresetset=myresetset, % 序号重置集合
+    ]
+% 部分重设
+\setupheads
+    [subsection,subsubsection,subsubsubsection]
+    [%
+    % before=, % 覆盖其前插入的空
+    ]
+% 单元设置，书眉留空，新页起 , page=yes新页/left偶数页/right奇数页（默认）
+\definepagebreak [rightblankpage] [yes,header,footer,right]%定义新建页面的规则，再加一个footer会压制白页前有正文页的页脚
+\setuphead[chapter][header=empty,page=rightblankpage,style={\setupalign[middle]\tfb}]
+% 课文标题设置
+\setuphead[section][style={\setupalign[middle]\tfa}]
+% 分组/栏目标题设置
+\setuphead[subsection][style={\bf}, number=no,distance=0pt]
+% 大题设置
+\setuplabeltext[cn][subsubsection={{},{、}}] % 前后标签
+%after={\blank[samepage]}无效，受到dati后续命令的干扰
+\setuphead[subsubsection][style={\hw}, number=no,distance=0pt,]
+
+
+% %%%%%%%%%
+% 自定义标题
+% %%%%%%%%%
+% 章
+\definehead[zhang][chapter]%[command={\externalfigure[dummy][width=1cm,height=1cm]}]%插图
+% 目录中的章注释(用在文本流中，章标题后)
+\def\muluzhangzhu#1{%
+    \writebetweenlist[zhang][location=here]{%
+    \vskip0.5em%不能用 \blank[0.5*line]
+    {\startnarrower[left]%
+    \setupinterlinespace[line=1.4em]%
+    \tt #1%\noindent 
+    \stopnarrower}}}%
+
+% 节
+\definehead[jie][section]
+
+% 小节
+\definehead[xiaojie][subsection]%subsection subsubject
+    [commandbefore={\hskip2em},before={\smallblank}, after={\smallblank}]
+
+% 小节
+\definehead[xiaoxiaojie][subsubsection]%subsection subsubject
+    [commandbefore={\hskip2em},before={\smallblank}, after={\smallblank}]
+
+
+% 自订文章标题（6级）、作者（7级）
+\definehead[centersection][subsubsubsubject][align=middle, before=, after=,]
+\definehead[authorsection][subsubsubsubsubject][align=middle, before=, after=,]
+% \definehead[leftsection][subsubsubject][align=flushleft]
+\def\essayhead[#1][#2]{\centersection{#1}%
+    \doifnotempty{#2}{\authorsection{#2}}%
+    }
+% \define[2]\rhymehead{\leftsection{#1}\leftaligned{\itx #2}\blank[0cm]}
+% \define[2]\classicalpoemhead{\centersection{#1}\middlealigned{\itx #2}\blank[0cm]}
+% 短文标题
+\def\centralTitle[#1][#2]{\subsubsubject{\tf }}
+
+% % 设置列表组itemize、所有级别、阿拉伯数字、堆叠、其后不留空
+% \setupitemgroup[itemize][each][n,packed][before={\smallblank}, after={\smallblank},]
+% % 设置二级列表
+% \setupitemgroup[itemize][2][left=（, right=）,stopper=]
+% % 定义答案列表，大写字母序号、横排、三列
+% \defineitemgroup[answeritems]
+% \setupitemgroup[answeritems][each][A,horizontal,three]
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 设置目录、PDF书签、交互、引用
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setupheadtext[content=目录]
+\setupcombinedlist[content][list={zhang,jie},alternative=c]%
+\setuplist[zhang][style=bold]
+\setuplist[jie][margin=2em]
+% pdf交互/链接
+\setupinteraction[%
+    state=start,
+    color=,
+    contrastcolor=,%同页引用的颜色，默认红色
+    ]
+% pdf书签
+% \setupinteractionscreen[option={bookmark}]
+\setupinteractionscreen[
+    option={doublesided,bookmark},
+    width=max,height=max,% necessary for Trim/BleedBox
+]
+\placebookmarks[zhang,jie,xiaojie,xiaoxiaojie,chapter,section,subsection,subsubsection] % 可加入自定义\definelist[mylist]
+% 设置引用
+% \setupreferencing[left=,right=] % 覆盖左右两侧的引号
+% \define[1]\see{\at{}{页}[#1]\about[#1]}% 另见
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 空白、间距和缩进
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 段落间距
+\setupwhitespace[none]
+% 条目间距（覆盖预设）
+% \setupitemgroup[packed]
+% 行距设置 A5a类19*20，b类22*22，c类25*25，d类29*28
+\setupinterlinespace[line=\getvariable{settings}{interlinespace}]
+% 缩进设置
+\setupindenting[yes, 2em, first]
+% 窄行、缩进设置（每一级的缩进量）
+\setupnarrower[left=01em]%
+\setupcolumns[n=2, separator=rule]
+
+% 引文
+\setupdelimitedtext[blockquote][style={\tt},rightmargin=0em]
+
+% 落款
+\definedelimitedtext
+  [luokuan]
+  [
+      leftmargin=\dimexpr(\getvariable{settings}{width_em}em*1/2),
+      rightmargin=0em,  %
+      style={\tt},
+      left={},
+      right={},
+      before={\blank[medium]\startalignment[center]}, % 前面加空白
+      after={\blank[medium]\stopalignment},% 后面加空白
+   ]  
+
+
+% 标准一字宽空格
+\def\q{\hskip0.75em}
+
+% 三星场景分割行
+\def\threeasterisksline{%
+    \testpage[3]%此处至少有三行，否则强制分页
+    \midaligned{\stretched[width=4.5em]{* * *}}}
+
+% % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % 其他设置
+% % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % 下画线颜色
+% \setupthinrules[color=secondColor]
+% % 表格
+% \definextable[mytable][offset=0.2em, option={stretch, width}, align={center,lohi}]
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 使用竖排、标点压缩、加注三模块(保持模块顺序)
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 竖排
+% \usemodule[vtypeset]
+% 
+% 标点压缩与支持
+\usemodule[zhpunc][pattern=quanjiao, spacequad=0.5, hangjian=false]
+% 
+% 四种标点压缩方案：全角、开明、半角、原样：
+%   pattern: quanjiao(default), kaiming, banjiao, yuanyang
+% 行间标点（转换`、，。．：！；？`到行间，pattern建议用banjiao）：
+%   hangjian: false(default), true
+% 加空宽度（角）：
+%   spacequad: 0.5(default)
+% 
+% 行间书名号和专名号（\bar实例）：
+%   \zhuanmh{专名}
+%   \shumh{书名}
+% 
+% 夹注
+% \usemodule[jiazhu][fontname=tf, fontsize=10.5pt, interlinespace=0.2em]
+% default: fontname=tf, fontsize=10.5pt, interlinespace=0.08em(行间标点时约0.2em)
+% fontname和fontsize与\switchtobodyfont的对应参数一致
+% 夹注命令：
+%   \jiazh{夹注}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % 唯一名称（用于自动生成不重复的宏、引用等）
+% % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \definecounter[uniquecounter][way=bytext]
+% % \setnumber[uniquecounter][1]
+% \def\incrementuniquename{\incrementcounter[uniquecounter]}
+% \def\uniquename{uniquename\Characters{\rawcountervalue[uniquecounter]}}%
+
+% % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % 存取答案数据
+% % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \definedataset[answertable][delay=yes] % 最后实现，会插入页码信息???
+% \def\saveAnswer[#1,#2]#3{%
+%     \doifnotmode{answersheet}{%
+%         % \incrementuniquename%
+%         % \expandafter\def\csname \strippedcsname\uniquename\endcsname{\someheadnumber[subsubsection][current]}%
+%         \setdataset[answertable][cmd={#1}, ref={#2}, answer={#3}]%花括号可以避免数据中的符号引起错误
+%         }%
+% }
+
+% 校对模式的存疑标记
+\def\cunyi{\dosingleempty\docunyi}
+\def\docunyi[#1]#2{%
+    \dontleavehmode%
+    \doifmodeelse{proofread}%
+        {\color[proofColor]{%
+            \offset[width=0em,y=-1em,location={right,top}]{%
+                \hbox to 0pt{\rmx\iffirstargument #1 \fi ？？}}%
+            #2}}%
+        {#2}%
+}%
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 资源
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \useMPlibrary[dum]%占位图库
+% \setupexternalfigures[location={local,default}]
+% \useexternalfigure[sine][sin.pdf][width=3cm]
+% \externalfigure[sine]
+
+% 插图设置
+\setupcaption
+  [figure]
+  [style=\ttx]
+% \setuplabeltext[en][figure={图 }]
+
+% 在汉字和非汉字间插入空格
+% 把双符破折号加成三符
+\startluacode
+Thirddata = Thirddata or {}
+
+local glyph_id = nodes.nodecodes.glyph
+local node_insertbefore = node.insertbefore
+local node_insertafter = node.insertafter
+local node_new = node.new
+local tex_sp = tex.sp
+
+local function ischinesechar(c)
+    -- cjk汉字，不含符号
+    -- for more ranges:
+    -- https://wiki.contextgarden.net/List_of_Unicode_blocks
+    -- 按常用程度排列
+    return (c >= 0x04E00 and c <= 0x09FFF) --CJK Unified Ideographs; cjkunifiedideographs
+        or (c >= 0x03400 and c <= 0x04DBF) --CJK Unified Ideographs Extension A; cjkunifiedideographsextensiona
+        or (c >= 0x02E80 and c <= 0x02EFF) --CJK Radicals Supplement; cjkradicalssupplement
+        or (c >= 0x031C0 and c <= 0x031EF) --CJK Strokes; cjkstrokes
+        or (c >= 0x0F900 and c <= 0x0FAFF) --CJK Compatibility Ideographs; cjkcompatibilityideographs
+        or (c >= 0x20000 and c <= 0x2A6DF) --CJK Unified Ideographs Extension B; cjkunifiedideographsextensionb
+        or (c >= 0x2A700 and c <= 0x2B73F) --CJK Unified Ideographs Extension C; cjkunifiedideographsextensionc
+        or (c >= 0x2B740 and c <= 0x2B81F) --CJK Unified Ideographs Extension D; cjkunifiedideographsextensiond
+        or (c >= 0x2B820 and c <= 0x2CEAF) --CJK Unified Ideographs Extension E; cjkunifiedideographsextensione
+        or (c >= 0x2CEB0 and c <= 0x2EBEF) --CJK Unified Ideographs Extension F; cjkunifiedideographsextensionf
+        or (c >= 0x2F800 and c <= 0x2FA1F) --CJK Compatibility Ideographs Supplement; cjkcompatibilityideographssupplement
+
+end
+
+-- 汉字环境中的（非汉字）合法符号
+local legalsymbolinchinese = {
+    [0x00b7] = true, -- ·   MIDDLE DOT
+    [0x002D] = true, -- -   Hyphen-Minus. Will there be any side effects?
+    [0x002F] = true, -- /   Solidus
+}
+
+local function islegalsymbolinchinese(c)
+    return legalsymbolinchinese[c]
+end
+
+function Thirddata.processmystuff(head)
+    local n = head
+    while n do
+        if n.id == glyph_id then
+            if  ischinesechar(n.char) then -- 本字是汉字
+                local n_prev = n.prev
+                if n_prev and n_prev.id == glyph_id then 
+                    if ischinesechar(n_prev.char) then -- 前字是汉字
+                    elseif not islegalsymbolinchinese(n_prev.char) then --前字不是汉字也不是合法中文语境符号
+                        local glue = node_new("glue")
+                        glue.width = tex_sp("0.25em")
+                        glue.stretch = tex_sp("0.25em")
+                        --print("insert space before:", utf8.char(n.char))
+                        head, glue = node_insertbefore(head, n, glue)
+                    end
+                end
+
+                local n_next = n.next
+                if n_next 
+                and n_next.id == glyph_id 
+                and not ischinesechar(n_next.char) 
+                and not islegalsymbolinchinese(n_next.char) 
+                then
+                    local glue = node_new("glue")
+                    glue.width = tex_sp("0.25em")
+                    glue.stretch = tex_sp("0.25em")
+                    --print("insert space after:", utf8.char(n.char))
+                    head, glue = node_insertafter(head, n, glue)
+                    n = glue.next
+                end
+            elseif n.char == 0x2014 then -- — — 双符破折号中间加入一个
+                local n_prev = n.prev
+             if n_prev and n_prev.id == glyph_id and n_prev.char == 0x2014 then 
+                    local k_l = node_new("kern")
+                    k_l.kern = -n.width / 2
+                    head, k_l = node_insertbefore(head, n, k_l)
+                    local glyph_n = node_new("glyph")
+                    glyph_n.font = font.current()
+                    glyph_n.subtype = 0
+                    glyph_n.char = 0x2014
+                    head, glyph_n = node_insertbefore(head, n, glyph_n)
+                    local k_r = node_new("kern")
+                    k_r.kern = -n.width / 2
+                    head, k_r = node_insertbefore(head, n, k_r)
+             end
+            end
+        end
+        n = n.next
+    end
+    return head, done
+end
+
+nodes.tasks.appendaction("processors", "after", "Thirddata.processmystuff")
+
+\stopluacode
+
+% 链接断行规则
+\enabledirectives[hyphenators.urls.packslashes] % 避免连续斜杠分到不同行
+\sethyphenatedurlnormal{:=?&}
+\sethyphenatedurlbefore{?&} 
+\sethyphenatedurlafter{:=}
+\sethyphenatedurlbefore{/} % 设置在斜杠前断行
+% % 设置断行时显示的符号
+% \def\hyphenatedurlseparator{↩}
+
+% % 参考文献
+% \usebtxdataset[bib.bib]
+% \usebtxdefinitions[gbt]
+% % \setupbtxlist[aps][distance=.5em,width=auto]
+
+
+
+\stopenvironment
